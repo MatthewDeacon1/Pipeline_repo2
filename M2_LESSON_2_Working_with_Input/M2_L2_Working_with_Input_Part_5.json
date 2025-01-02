@@ -1,0 +1,46 @@
+{
+    "draganddrop": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "multipleResponses": true,
+            "draganddropSecuence": true,
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Rellene los espacios en blanco para producir un código válido, que toma los valores de las variables x e y de la entrada y genera su suma."
+                },
+                {
+                    "type": "Consola",
+                    "text": "\n# Declara 'x' de tipo númerico y que espere una entrada por teclado\n___ ___ ______\n\n# Declara 'y' de tipo númerico y que espere una entrada por teclado\n___ ___ ______\n\nImprime por pantalla la suma de las variables que declaraste 'x' y 'y'\n______ ___ ______"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "x"
+                },
+                {
+                    "text": "input())"
+                },
+                {
+                    "text": "print("
+                },
+                {
+                    "text": "+"
+                },
+                {
+                    "text": "int("
+                },
+                {
+                    "text": "y"
+                },
+                {
+                    "text": ")"
+                },
+                {
+                    "text": "="
+                }
+            ],
+            "correctOrder": ["x","=","int(","input())","y","=","int(","input())","print(","x","+","y",")"]
+        }
+    ]
+}

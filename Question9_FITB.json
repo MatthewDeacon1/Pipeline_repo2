@@ -1,0 +1,30 @@
+{
+    "completeblankspace": [
+        {
+            "title": "Pregunta 9",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "\u00bfCu\u00e1l ser\u00e1 la salida del siguiente c\u00f3digo?\n\nd = 25\nif d < 10:\n    print('Bajo')\nelif d < 20:\n    print('Medio')\nelif d < 30:\n    print('Alto')\nelse:\n    print('Muy Alto')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "Bajo",
+                        "correct": false
+                    },
+                    {
+                        "text": "Medio",
+                        "correct": false
+                    },
+                    {
+                        "text": "Alto",
+                        "correct": true
+                    }
+                ]
+            }
+        }
+    ]
+}

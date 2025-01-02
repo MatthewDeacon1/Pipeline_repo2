@@ -1,0 +1,31 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "¿Cuál es la salida de este código?."
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nx = 'a'\nif x < 'c':\n    x += 'b'\nif x > 'z':\n    x += 'c'\n\nprint(x)\n>?"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "cz",
+                    "correct": false
+                },
+                {
+                    "text": "as",
+                    "correct": false
+                },
+                {
+                    "text": "ab",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

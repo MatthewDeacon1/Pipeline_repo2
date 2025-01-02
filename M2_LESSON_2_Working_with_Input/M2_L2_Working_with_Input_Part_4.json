@@ -1,0 +1,51 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Cual es la salida de este código?"
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\na = 5\nb = 9\nx = str(a)\ny = str(b)\nprint(x+y)\n>____"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "0",
+                    "correct": false
+                },
+                {
+                    "text": "'59'",
+                    "correct": true
+                },
+                {
+                    "text": "55",
+                    "correct": false
+                },
+                {
+                    "text": "'14'",
+                    "correct": false
+                }
+            ]
+        }
+    ],
+
+    "pedagogical": [
+        {
+            "title": "Entradas múltiples",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Lo último que hay que mencionar es que puede usar input() varias veces para tomar\nvarias entradas de usuario.\n \nPor ejemplo:"
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nname = input()\nage = input()\nprint(name + ' is ' + age)\n>'name' is 'age'"
+                }
+            ]
+        }
+    ]
+}

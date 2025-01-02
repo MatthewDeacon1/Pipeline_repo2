@@ -1,0 +1,47 @@
+{
+    "pedagogical": [
+        {
+            "title": "Declaraciones if",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Los dos puntos al final de la expresión en la instrucción if son importantes, no los omita."
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nage = 24\n\nif age > 18:\n   print('Cool')\n>Cool"
+                }
+            ]
+        }
+    ],
+
+    "multiplechoice": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Complete los espacios en blanco para crear una declaración if válida."
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nx = 8\ny = 42\n____ x > y:\n    print('x is greater than y')"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "None",
+                    "correct": false
+                },
+                {
+                    "text": "if",
+                    "correct": true
+                },
+                {
+                    "text": "3",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

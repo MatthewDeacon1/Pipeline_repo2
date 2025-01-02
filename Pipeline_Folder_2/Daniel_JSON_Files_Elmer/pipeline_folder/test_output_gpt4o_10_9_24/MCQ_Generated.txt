@@ -1,0 +1,321 @@
+1. **Difficulty Level 1: Basic If Statement**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be printed if the following code is executed?\n\nx = 5\nif x > 3:\n    print('Hello')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Hello",
+            "correct": true
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        },
+        {
+            "text": "5",
+            "correct": false
+        }
+    ]
+}
+```
+
+2. **Difficulty Level 2: If-Else Statement**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will the following code output?\n\ny = 10\nif y < 5:\n    print('Small')\nelse:\n    print('Large')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Large",
+            "correct": true
+        },
+        {
+            "text": "Small",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        }
+    ]
+}
+```
+
+3. **Difficulty Level 3: If-Elif-Else Chain**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What is the output of the following code?\n\nz = 7\nif z > 10:\n    print('Greater')\nelif z == 7:\n    print('Equal')\nelse:\n    print('Smaller')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Equal",
+            "correct": true
+        },
+        {
+            "text": "Greater",
+            "correct": false
+        },
+        {
+            "text": "Smaller",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        }
+    ]
+}
+```
+
+4. **Difficulty Level 4: Nested If Statements**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be printed by the following code?\n\na = 3\nb = 4\nif a < 5:\n    if b > 3:\n        print('Inside')\n    else:\n        print('Outside')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Inside",
+            "correct": true
+        },
+        {
+            "text": "Outside",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        }
+    ]
+}
+```
+
+5. **Difficulty Level 5: Logical Operators**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be the output of the following code?\n\nc = 8\nd = 12\nif c > 5 and d < 15:\n    print('Both conditions are true')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Both conditions are true",
+            "correct": true
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        },
+        {
+            "text": "Both conditions are false",
+            "correct": false
+        }
+    ]
+}
+```
+
+6. **Difficulty Level 6: Combining Conditions**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Determine the output of the following code:\n\nx = 10\ny = 20\nif x == 10 or y == 10:\n    print('One is ten')\nelse:\n    print('None is ten')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "One is ten",
+            "correct": true
+        },
+        {
+            "text": "None is ten",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        }
+    ]
+}
+```
+
+7. **Difficulty Level 7: Complex Conditions**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be printed by the following code?\n\nx = 5\ny = 15\nif x < 10 and (y > 10 or y < 20):\n    print('Complex Condition Met')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Complex Condition Met",
+            "correct": true
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        },
+        {
+            "text": "Complex Condition Not Met",
+            "correct": false
+        }
+    ]
+}
+```
+
+8. **Difficulty Level 8: If Statements with Lists**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be the output of this code?\n\nnumbers = [1, 2, 3, 4, 5]\nif 3 in numbers:\n    print('Found 3')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Found 3",
+            "correct": true
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        },
+        {
+            "text": "Not Found",
+            "correct": false
+        }
+    ]
+}
+```
+
+9. **Difficulty Level 9: If Statements with Functions**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be printed by the following code?\n\ndef check_value(val):\n    if val > 0:\n        return 'Positive'\n    elif val < 0:\n        return 'Negative'\n    else:\n        return 'Zero'\n\nprint(check_value(-5))"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Negative",
+            "correct": true
+        },
+        {
+            "text": "Positive",
+            "correct": false
+        },
+        {
+            "text": "Zero",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        }
+    ]
+}
+```
+
+10. **Difficulty Level 10: If Statements with Nested Functions**
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be the output of the following code?\n\ndef outer(x):\n    def inner(y):\n        if y > 0:\n            return 'Inner Positive'\n        else:\n            return 'Inner Non-Positive'\n    if x > 0:\n        return inner(x - 1)\n    else:\n        return 'Outer Non-Positive'\n\nprint(outer(1))"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Inner Positive",
+            "correct": true
+        },
+        {
+            "text": "Inner Non-Positive",
+            "correct": false
+        },
+        {
+            "text": "Outer Non-Positive",
+            "correct": false
+        },
+        {
+            "text": "An error",
+            "correct": false
+        }
+    ]
+}
+```
+
+These questions progressively increase in complexity, covering basic if statements, logical operators, nested conditions, and using functions with if statements.

@@ -1,0 +1,35 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "¿Cuál es el resultado de este código?"
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nx = 10\ny = 20\nif x > y:\n   print(x+y)\nelse:\n   print(y-x)\n>?"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "30",
+                    "correct": false
+                },
+                {
+                    "text": "20",
+                    "correct": false
+                },
+                {
+                    "text": "10",
+                    "correct": true
+                },
+                {
+                    "text": "0",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "completeblankspace": [
+        {
+            "title": "Pregunta 2",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Rellena el espacio en blanco para completar la declaraci\u00f3n if que verifica si una variable 'y' es igual a 10.\n\n___ y == 10:"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if",
+                        "correct": true
+                    },
+                    {
+                        "text": "else",
+                        "correct": false
+                    },
+                    {
+                        "text": "elif",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

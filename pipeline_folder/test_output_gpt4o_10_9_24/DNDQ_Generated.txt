@@ -1,0 +1,328 @@
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to complete the if statement that prints 'Hello World' if the variable x is equal to 5."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if x == 5:",
+            "text": "___ print('Hello World')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if x == 5:",
+            "correctType": "question1"
+        },
+        {
+            "text": "if x = 5:",
+            "correctType": "none"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blanks to check if a number is both greater than 10 and less than 20."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if 10 < number < 20:",
+            "text": "___ print('Number is between 10 and 20')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if 10 < number < 20:",
+            "correctType": "question1"
+        },
+        {
+            "text": "if number > 10 and < 20:",
+            "correctType": "none"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the if-else statement to print 'Even' if a number is even, and 'Odd' otherwise."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if number % 2 == 0:",
+            "text": "___ print('Even')"
+        },
+        {
+            "type": "question2",
+            "correctValue": "else:",
+            "text": "___ print('Odd')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if number % 2 == 0:",
+            "correctType": "question1"
+        },
+        {
+            "text": "else:",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blanks to check if a string is empty or not."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if not my_string:",
+            "text": "___ print('String is empty')"
+        },
+        {
+            "type": "question2",
+            "correctValue": "else:",
+            "text": "___ print('String is not empty')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if not my_string:",
+            "correctType": "question1"
+        },
+        {
+            "text": "else:",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the nested if statement to check if a number is positive and even."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if number > 0:",
+            "text": "___"
+        },
+        {
+            "type": "question2",
+            "correctValue": "if number % 2 == 0:",
+            "text": "    ___ print('Positive and even')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if number > 0:",
+            "correctType": "question1"
+        },
+        {
+            "text": "if number % 2 == 0:",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blanks to check if a character is a vowel."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if char in 'aeiou':",
+            "text": "___ print('Vowel')"
+        },
+        {
+            "type": "question2",
+            "correctValue": "else:",
+            "text": "___ print('Not a vowel')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if char in 'aeiou':",
+            "correctType": "question1"
+        },
+        {
+            "text": "else:",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the if-elif-else statement to categorize age groups."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if age < 13:",
+            "text": "___ print('Child')"
+        },
+        {
+            "type": "question2",
+            "correctValue": "elif 13 <= age < 20:",
+            "text": "___ print('Teenager')"
+        },
+        {
+            "type": "question3",
+            "correctValue": "else:",
+            "text": "___ print('Adult')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if age < 13:",
+            "correctType": "question1"
+        },
+        {
+            "text": "elif 13 <= age < 20:",
+            "correctType": "question2"
+        },
+        {
+            "text": "else:",
+            "correctType": "question3"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blanks to check if a year is a leap year."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:",
+            "text": "___ print('Leap year')"
+        },
+        {
+            "type": "question2",
+            "correctValue": "else:",
+            "text": "___ print('Not a leap year')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:",
+            "correctType": "question1"
+        },
+        {
+            "text": "else:",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the if statement to check if a list contains any negative numbers."
+        },
+        {
+            "type": "question1",
+            "correctValue": "if any(n < 0 for n in numbers):",
+            "text": "___ print('List contains negative numbers')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if any(n < 0 for n in numbers):",
+            "correctType": "question1"
+        },
+        {
+            "text": "if all(n < 0 for n in numbers):",
+            "correctType": "none"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blanks to use a ternary conditional operator to assign 'Even' or 'Odd' to the variable result based on the parity of a number."
+        },
+        {
+            "type": "question1",
+            "correctValue": "'Even' if number % 2 == 0 else 'Odd'",
+            "text": "result = ___"
+        }
+    ],
+    "answers": [
+        {
+            "text": "'Even' if number % 2 == 0 else 'Odd'",
+            "correctType": "question1"
+        },
+        {
+            "text": "'Odd' if number % 2 == 0 else 'Even'",
+            "correctType": "none"
+        }
+    ]
+}
+```

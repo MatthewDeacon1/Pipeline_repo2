@@ -1,0 +1,66 @@
+{
+    "pedagogical": [
+        {
+            "title": "Bucles en listas",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Se puede usar un bucle for para iterar sobre cadenas.\n\nPor ejemplo:"
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nstr = 'testing for loops'\ncount = 0\n\nfor x in str:\n  if x == 't':\n    count += 1\n\nprint(count)"
+                },
+                {
+                    "type": "info",
+                    "text": "El código anterior define una variable de conteo , itera sobre la cadena y calcula el conteo de letras ' t ' en él. \nDurante cada iteración, la variable x representa la letra actual de la cadena."
+                },
+                {
+                    "type": "hint",
+                    "text": "La variable de conteo se incrementa cada vez que se encuentra la letra 't', por lo que al final del ciclo, representa el número de letras 't' en la cadena."
+                }
+            ]
+        }
+    ],
+
+    "draganddrop": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "multipleResponses": true,
+            "draganddropSecuence": true,
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Complete los espacios en blanco para iterar sobre la cadena 'str' ​​ y generar cada carácter."
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\n___ x ___ str___\n print(___)"
+                }
+            ],
+            "answers": [
+                {
+                    "text": ":",
+                    "correct": true
+                },
+                {
+                    "text": "for",
+                    "correct": true
+                },
+                {
+                    "text": "x",
+                    "correct": true
+                },
+                {
+                    "text": "in",
+                    "correct": true
+                },
+                {
+                    "text": "8",
+                    "correct": false
+                }
+            ],
+            "correctOrder": ["for", "in", ":", "x"]
+        }
+    ]
+}

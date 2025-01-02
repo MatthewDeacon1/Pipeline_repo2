@@ -1,0 +1,34 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Pregunta 6",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "\u00bfCu\u00e1l es la salida del siguiente c\u00f3digo?\n\nx = 3\ny = 4\nif x > 2 and y < 5:\n    print('Ambas condiciones son verdaderas')\nelse:\n    print('Al menos una condici\u00f3n es falsa')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "Ambas condiciones son verdaderas",
+                        "correct": true
+                    },
+                    {
+                        "text": "Al menos una condici\u00f3n es falsa",
+                        "correct": false
+                    },
+                    {
+                        "text": "Error",
+                        "correct": false
+                    },
+                    {
+                        "text": "Nada",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

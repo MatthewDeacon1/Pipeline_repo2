@@ -1,0 +1,260 @@
+1. Difficulty Level: 1
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: ___ x == 5: print('x is 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "while",
+            "correct": false
+        },
+        {
+            "text": "if",
+            "correct": true
+        },
+        {
+            "text": "for",
+            "correct": false
+        }
+    ]
+}
+```
+2. Difficulty Level: 2
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5: ___('x is greater than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "print",
+            "correct": true
+        },
+        {
+            "text": "return",
+            "correct": false
+        },
+        {
+            "text": "raise",
+            "correct": false
+        }
+    ]
+}
+```
+3. Difficulty Level: 3
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5: print('x is greater than 5') ___: print('x is not greater than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "elif",
+            "correct": false
+        },
+        {
+            "text": "else",
+            "correct": true
+        },
+        {
+            "text": "except",
+            "correct": false
+        }
+    ]
+}
+```
+4. Difficulty Level: 4
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5 and ___ < 10: print('x is between 5 and 10')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "x",
+            "correct": true
+        },
+        {
+            "text": "y",
+            "correct": false
+        },
+        {
+            "text": "z",
+            "correct": false
+        }
+    ]
+}
+```
+5. Difficulty Level: 5
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5: print('x is greater than 5') elif x == 5: print('x is 5') else: ___('x is less than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "print",
+            "correct": true
+        },
+        {
+            "text": "return",
+            "correct": false
+        },
+        {
+            "text": "raise",
+            "correct": false
+        }
+    ]
+}
+```
+6. Difficulty Level: 6
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5 and (y < 10 ___ z < 10): print('x is greater than 5 and either y or z is less than 10')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "and",
+            "correct": false
+        },
+        {
+            "text": "or",
+            "correct": true
+        },
+        {
+            "text": "not",
+            "correct": false
+        }
+    ]
+}
+```
+7. Difficulty Level: 7
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5: print('x is greater than 5') elif x == 5: print('x is 5') else: print('x is less than 5') ___ x < 0: print('x is negative')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "elif",
+            "correct": true
+        },
+        {
+            "text": "if",
+            "correct": false
+        },
+        {
+            "text": "else",
+            "correct": false
+        }
+    ]
+}
+```
+8. Difficulty Level: 8
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5 and not (y < 10 ___ z < 10): print('x is greater than 5 and neither y nor z is less than 10')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "and",
+            "correct": true
+        },
+        {
+            "text": "or",
+            "correct": false
+        },
+        {
+            "text": "not",
+            "correct": false
+        }
+    ]
+}
+```
+9. Difficulty Level: 9
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5: print('x is greater than 5') elif x == 5: print('x is 5') else: print('x is less than 5') if x < 0: print('x is negative') ___: print('x is positive')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "else",
+            "correct": true
+        },
+        {
+            "text": "elif",
+            "correct": false
+        },
+        {
+            "text": "if",
+            "correct": false
+        }
+    ]
+}
+```
+10. Difficulty Level: 10
+```json
+{
+    "title": "Fill in the Blank",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the following Python code: if x > 5 and not (y < 10 or z < 10): print('x is greater than 5 and neither y nor z is less than 10') ___ x > 5 and (y > 10 and z > 10): print('x is greater than 5 and both y and z are greater than 10')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "elif",
+            "correct": true
+        },
+        {
+            "text": "if",
+            "correct": false
+        },
+        {
+            "text": "else",
+            "correct": false
+        }
+    ]
+}
+```

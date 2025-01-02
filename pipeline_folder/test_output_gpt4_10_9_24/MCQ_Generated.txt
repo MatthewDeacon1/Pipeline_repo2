@@ -1,0 +1,309 @@
+1. Question 1 (Difficulty Level: 1)
+```json
+{
+    "title": "Select the correct syntax for an if statement in Python", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "Which of the following is the correct syntax for an if statement in Python?"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "if (expression):", 
+            "correct": false
+        }, 
+        {
+            "text": "if expression then:", 
+            "correct": false
+        }, 
+        {
+            "text": "if expression:", 
+            "correct": true
+        }, 
+        {
+            "text": "if (expression) then:", 
+            "correct": false
+        }
+    ]
+}
+```
+
+2. Question 2 (Difficulty Level: 2)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 5\nif x > 10:\n    print('Hello')\nelse:\n    print('World')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "Hello", 
+            "correct": false
+        }, 
+        {
+            "text": "World", 
+            "correct": true
+        }, 
+        {
+            "text": "Hello World", 
+            "correct": false
+        }, 
+        {
+            "text": "No output", 
+            "correct": false
+        }
+    ]
+}
+```
+
+3. Question 3 (Difficulty Level: 3)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 5\ny = 10\nif x > y:\n    print('x is greater')\nelif x < y:\n    print('y is greater')\nelse:\n    print('x and y are equal')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "x is greater", 
+            "correct": false
+        }, 
+        {
+            "text": "y is greater", 
+            "correct": true
+        }, 
+        {
+            "text": "x and y are equal", 
+            "correct": false
+        }, 
+        {
+            "text": "No output", 
+            "correct": false
+        }
+    ]
+}
+```
+
+4. Question 4 (Difficulty Level: 4)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 'Python'\nif 'y' in x:\n    print('Yes')\nelse:\n    print('No')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "Yes", 
+            "correct": true
+        }, 
+        {
+            "text": "No", 
+            "correct": false
+        }, 
+        {
+            "text": "Error", 
+            "correct": false
+        }, 
+        {
+            "text": "No output", 
+            "correct": false
+        }
+    ]
+}
+```
+
+5. Question 5 (Difficulty Level: 5)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = [1, 2, 3]\nif 2 in x:\n    print('Yes')\nelse:\n    print('No')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "Yes", 
+            "correct": true
+        }, 
+        {
+            "text": "No", 
+            "correct": false
+        }, 
+        {
+            "text": "Error", 
+            "correct": false
+        }, 
+        {
+            "text": "No output", 
+            "correct": false
+        }
+    ]
+}
+```
+
+6. Question 6 (Difficulty Level: 6)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 5\ny = 10\nif x > y:\n    print('x is greater')\nelif x < y:\n    print('y is greater')\nif y > x:\n    print('y is still greater')\nelse:\n    print('x is now greater')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "y is greater\ny is still greater", 
+            "correct": true
+        }, 
+        {
+            "text": "y is greater\nx is now greater", 
+            "correct": false
+        }, 
+        {
+            "text": "x is greater\ny is still greater", 
+            "correct": false
+        }, 
+        {
+            "text": "x is greater\nx is now greater", 
+            "correct": false
+        }
+    ]
+}
+```
+
+7. Question 7 (Difficulty Level: 7)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 5\ny = 10\nz = 15\nif x > y and z > x:\n    print('Condition met')\nelse:\n    print('Condition not met')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "Condition met", 
+            "correct": false
+        }, 
+        {
+            "text": "Condition not met", 
+            "correct": true
+        }, 
+        {
+            "text": "Error", 
+            "correct": false
+        }, 
+        {
+            "text": "No output", 
+            "correct": false
+        }
+    ]
+}
+```
+
+8. Question 8 (Difficulty Level: 8)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 5\ny = 10\nz = 15\nif x > y or z > x:\n    print('Condition met')\nelse:\n    print('Condition not met')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "Condition met", 
+            "correct": true
+        }, 
+        {
+            "text": "Condition not met", 
+            "correct": false
+        }, 
+        {
+            "text": "Error", 
+            "correct": false
+        }, 
+        {
+            "text": "No output", 
+            "correct": false
+        }
+    ]
+}
+```
+
+9. Question 9 (Difficulty Level: 9)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 5\ny = 10\nz = 15\nif not x > y:\n    print('Condition met')\nelse:\n    print('Condition not met')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "Condition met", 
+            "correct": true
+        }, 
+        {
+            "text": "Condition not met", 
+            "correct": false
+        }, 
+        {
+            "text": "Error", 
+            "correct": false
+        }, 
+        {
+            "text": "No output", 
+            "correct": false
+        }
+    ]
+}
+```
+
+10. Question 10 (Difficulty Level: 10)
+```json
+{
+    "title": "Select the correct output of the Python code", 
+    "blocks": [
+        {
+            "type": "info", 
+            "text": "What is the output of the following Python code?\n\nx = 'Python'\nif 'a' in x:\n    print('Yes')\nelif 'y' in x:\n    print('Maybe')\nelse:\n    print('No')"
+        }
+    ], 
+    "answers": [
+        {
+            "text": "Yes", 
+            "correct": false
+        }, 
+        {
+            "text": "Maybe", 
+            "correct": true
+        }, 
+        {
+            "text": "No", 
+            "correct": false
+        }, 
+        {
+            "text": "Error", 
+            "correct": false
+        }
+    ]
+}
+```

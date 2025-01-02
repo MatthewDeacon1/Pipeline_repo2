@@ -1,0 +1,300 @@
+Here are the 10 drag and drop questions about if statements in Python. Each question is designed to increase in difficulty from 1 to 10.
+
+Question 1:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "A basic if statement in Python is written as 'if condition:'"
+        },
+        {
+            "type": "question1",
+            "correctValue": "if",
+            "text": "___ x > 5:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if",
+            "correctType": "question1"
+        },
+        {
+            "text": "when",
+            "correctType": "question1"
+        }
+    ]
+}
+```
+
+Question 2:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "The else clause in Python is used to specify a block of code to be executed if the condition in the if statement is False."
+        },
+        {
+            "type": "question2",
+            "correctValue": "else",
+            "text": "if x > 5: \n    print('x is greater than 5')\n___: \n    print('x is not greater than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "else",
+            "correctType": "question2"
+        },
+        {
+            "text": "otherwise",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+Question 3:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "The elif keyword in Python is used in conditional statements to check additional conditions if the conditions before it are False."
+        },
+        {
+            "type": "question3",
+            "correctValue": "elif",
+            "text": "if x > 5: \n    print('x is greater than 5')\n___ x == 5: \n    print('x is equal to 5')\nelse: \n    print('x is less than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "elif",
+            "correctType": "question3"
+        },
+        {
+            "text": "else if",
+            "correctType": "question3"
+        }
+    ]
+}
+```
+
+Question 4:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Python supports the usual logical conditions from mathematics."
+        },
+        {
+            "type": "question4",
+            "correctValue": "and",
+            "text": "if x > 5 ___ x < 10: \n    print('x is between 5 and 10')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "and",
+            "correctType": "question4"
+        },
+        {
+            "text": "or",
+            "correctType": "question4"
+        }
+    ]
+}
+```
+
+Question 5:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Python uses indentation (whitespace at the beginning of a line) to delimit blocks of code."
+        },
+        {
+            "type": "question5",
+            "correctValue": "    ",
+            "text": "if x > 5: \n___print('x is greater than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "    ",
+            "correctType": "question5"
+        },
+        {
+            "text": "",
+            "correctType": "question5"
+        }
+    ]
+}
+```
+
+Question 6:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Python allows for conditional expressions, which is a shorter way to write an if-else statement."
+        },
+        {
+            "type": "question6",
+            "correctValue": "else",
+            "text": "x = 5 if y > 5 ___ 0"
+        }
+    ],
+    "answers": [
+        {
+            "text": "else",
+            "correctType": "question6"
+        },
+        {
+            "text": "otherwise",
+            "correctType": "question6"
+        }
+    ]
+}
+```
+
+Question 7:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Python allows the use of logical operators in conditional statements."
+        },
+        {
+            "type": "question7",
+            "correctValue": "not",
+            "text": "if ___(x > 5): \n    print('x is not greater than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "not",
+            "correctType": "question7"
+        },
+        {
+            "text": "no",
+            "correctType": "question7"
+        }
+    ]
+}
+```
+
+Question 8:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Python allows the use of comparison operators in conditional statements."
+        },
+        {
+            "type": "question8",
+            "correctValue": "==",
+            "text": "if x ___ 5: \n    print('x is equal to 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "==",
+            "correctType": "question8"
+        },
+        {
+            "text": "=",
+            "correctType": "question8"
+        }
+    ]
+}
+```
+
+Question 9:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Python allows the use of the 'in' keyword to check if a value exists in a sequence like a list, tuple, etc."
+        },
+        {
+            "type": "question9",
+            "correctValue": "in",
+            "text": "if x ___ [1, 2, 3, 4, 5]: \n    print('x is in the list')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "in",
+            "correctType": "question9"
+        },
+        {
+            "text": "within",
+            "correctType": "question9"
+        }
+    ]
+}
+```
+
+Question 10:
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": false,
+    "multipleResponseVariant": false,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Python allows the use of nested if statements, which is an if statement inside another if statement."
+        },
+        {
+            "type": "question10",
+            "correctValue": "if",
+            "text": "if x > 5: \n    ___ y > 5: \n        print('both x and y are greater than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if",
+            "correctType": "question10"
+        },
+        {
+            "text": "when",
+            "correctType": "question10"
+        }
+    ]
+}
+```

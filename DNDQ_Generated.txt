@@ -1,0 +1,339 @@
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Basic understanding of if statements."
+        },
+        {
+            "type": "question1",
+            "correctValue": "True condition",
+            "text": "What should the condition be to execute the if block? if ___:"
+        },
+        {
+            "type": "question2",
+            "correctValue": "False condition",
+            "text": "What should the condition be to skip the if block? if ___:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "True condition",
+            "correctType": "question1"
+        },
+        {
+            "text": "False condition",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Understanding if-else statements."
+        },
+        {
+            "type": "question1",
+            "correctValue": "else",
+            "text": "Which keyword follows an if statement to execute an alternative block? if condition: pass ___:"
+        },
+        {
+            "type": "question2",
+            "correctValue": "elif",
+            "text": "What keyword is used for multiple conditions in sequence? if condition1: pass ___ condition2: pass"
+        }
+    ],
+    "answers": [
+        {
+            "text": "else",
+            "correctType": "question1"
+        },
+        {
+            "text": "elif",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "If statements with logical operators."
+        },
+        {
+            "type": "question1",
+            "correctValue": "and",
+            "text": "Which logical operator checks if both conditions are true? if condition1 ___ condition2:"
+        },
+        {
+            "type": "question2",
+            "correctValue": "or",
+            "text": "Which logical operator checks if at least one condition is true? if condition1 ___ condition2:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "and",
+            "correctType": "question1"
+        },
+        {
+            "text": "or",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Nested if statements."
+        },
+        {
+            "type": "question1",
+            "correctValue": "indented",
+            "text": "How should a nested if statement be structured? It should be ___ inside the outer if block."
+        },
+        {
+            "type": "question2",
+            "correctValue": "outer",
+            "text": "Which if statement is evaluated first in a nested structure? The ___ if statement."
+        }
+    ],
+    "answers": [
+        {
+            "text": "indented",
+            "correctType": "question1"
+        },
+        {
+            "text": "outer",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "If statements with comparison operators."
+        },
+        {
+            "type": "question1",
+            "correctValue": "==",
+            "text": "Which operator is used to check equality? if a ___ b:"
+        },
+        {
+            "type": "question2",
+            "correctValue": "!=",
+            "text": "Which operator is used to check inequality? if a ___ b:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "==",
+            "correctType": "question1"
+        },
+        {
+            "text": "!=",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "If statements with boolean variables."
+        },
+        {
+            "type": "question1",
+            "correctValue": "True",
+            "text": "Which value should a boolean variable have to execute an if block? if variable == ___:"
+        },
+        {
+            "type": "question2",
+            "correctValue": "False",
+            "text": "Which value should a boolean variable have to skip an if block? if variable == ___:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "True",
+            "correctType": "question1"
+        },
+        {
+            "text": "False",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "If statements with function return values."
+        },
+        {
+            "type": "question1",
+            "correctValue": "function() > 0",
+            "text": "Which condition checks if a function returns a positive number? if ___:"
+        },
+        {
+            "type": "question2",
+            "correctValue": "function() < 0",
+            "text": "Which condition checks if a function returns a negative number? if ___:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "function() > 0",
+            "correctType": "question1"
+        },
+        {
+            "text": "function() < 0",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "If statements with list membership."
+        },
+        {
+            "type": "question1",
+            "correctValue": "in",
+            "text": "Which keyword checks if an element is in a list? if element ___ list:"
+        },
+        {
+            "type": "question2",
+            "correctValue": "not in",
+            "text": "Which keyword checks if an element is not in a list? if element ___ list:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "in",
+            "correctType": "question1"
+        },
+        {
+            "text": "not in",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "If statements with exceptions."
+        },
+        {
+            "type": "question1",
+            "correctValue": "try",
+            "text": "Which keyword is used to handle exceptions before an if statement? ___: execute code"
+        },
+        {
+            "type": "question2",
+            "correctValue": "except",
+            "text": "Which keyword is used to handle exceptions after an if statement? try: execute code ___ ExceptionType:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "try",
+            "correctType": "question1"
+        },
+        {
+            "text": "except",
+            "correctType": "question2"
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complex if statements with multiple conditions."
+        },
+        {
+            "type": "question1",
+            "correctValue": "nested",
+            "text": "What is the term for if statements within another if block? ___ if statements."
+        },
+        {
+            "type": "question2",
+            "correctValue": "chained",
+            "text": "What is the term for multiple conditions combined with logical operators? ___ conditions."
+        }
+    ],
+    "answers": [
+        {
+            "text": "nested",
+            "correctType": "question1"
+        },
+        {
+            "text": "chained",
+            "correctType": "question2"
+        }
+    ]
+}
+```

@@ -1,0 +1,30 @@
+{
+    "completeblankspace": [
+        {
+            "title": "Pregunta 6",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Rellena el espacio en blanco para crear una declaraci\u00f3n if anidada:\n\nx = 8\nif x > 5:\n    if x < 10:\n        print('En rango')\n\nEl espacio en blanco debe llenarse con 'if x ___ 10:'"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "<",
+                        "correct": true
+                    },
+                    {
+                        "text": ">",
+                        "correct": false
+                    },
+                    {
+                        "text": "==",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

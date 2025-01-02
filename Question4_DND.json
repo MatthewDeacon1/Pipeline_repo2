@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 4",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Elige el operador de comparaci\u00f3n correcto para verificar la igualdad."
+                    },
+                    {
+                        "type": "pregunta1",
+                        "correctValue": "=="
+                    },
+                    {
+                        "type": "pregunta2",
+                        "correctValue": "if a == b:"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "==",
+                        "correctType": "pregunta1"
+                    },
+                    {
+                        "text": "if a == b:",
+                        "correctType": "pregunta2"
+                    }
+                ]
+            }
+        }
+    ]
+}

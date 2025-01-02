@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 7",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Determina el uso correcto del operador not en una declaraci\u00f3n if."
+                    },
+                    {
+                        "type": "pregunta1",
+                        "correctValue": "if not x > 10:"
+                    },
+                    {
+                        "type": "pregunta2",
+                        "correctValue": "print('x no es mayor que 10')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if not x > 10:",
+                        "correctType": "pregunta1"
+                    },
+                    {
+                        "text": "print('x no es mayor que 10')",
+                        "correctType": "pregunta2"
+                    }
+                ]
+            }
+        }
+    ]
+}

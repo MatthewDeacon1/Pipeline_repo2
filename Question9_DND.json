@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 9",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Elige la sintaxis correcta para usar una declaraci\u00f3n if con una lista."
+                    },
+                    {
+                        "type": "question1",
+                        "correctValue": "if 'apple' in fruits:"
+                    },
+                    {
+                        "type": "question2",
+                        "correctValue": "print('Apple is in the list')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if 'apple' in fruits:",
+                        "correctType": "question1"
+                    },
+                    {
+                        "text": "print('Apple is in the list')",
+                        "correctType": "question2"
+                    }
+                ]
+            }
+        }
+    ]
+}

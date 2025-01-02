@@ -1,0 +1,37 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 2",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Completa la declaraci\u00f3n if para verificar si una variable 'x' es igual a 10."
+                    },
+                    {
+                        "type": "question1",
+                        "correctValue": "if x == 10:",
+                        "text": "Escribe la condici\u00f3n para verificar si 'x' es igual a 10: ___"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if x == 10:",
+                        "correctType": "question1"
+                    },
+                    {
+                        "text": "if x = 10:",
+                        "correctType": ""
+                    },
+                    {
+                        "text": "if x != 10:",
+                        "correctType": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

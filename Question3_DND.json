@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 3",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Completa la declaraci\u00f3n if-else."
+                    },
+                    {
+                        "type": "pregunta1",
+                        "correctValue": "else:"
+                    },
+                    {
+                        "type": "pregunta2",
+                        "correctValue": "print('Condici\u00f3n no cumplida')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "else:",
+                        "correctType": "pregunta1"
+                    },
+                    {
+                        "text": "print('Condici\u00f3n no cumplida')",
+                        "correctType": "pregunta2"
+                    }
+                ]
+            }
+        }
+    ]
+}

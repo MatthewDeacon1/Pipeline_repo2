@@ -1,0 +1,30 @@
+{
+    "completeblankspace": [
+        {
+            "title": "Pregunta 1",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "\u00bfCu\u00e1l es la salida del siguiente c\u00f3digo?\n\nx = 5\nif x > 3:\n    print('Mayor')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "Mayor",
+                        "correct": true
+                    },
+                    {
+                        "text": "Menor",
+                        "correct": false
+                    },
+                    {
+                        "text": "Igual",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

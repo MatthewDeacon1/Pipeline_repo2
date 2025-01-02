@@ -1,0 +1,34 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Pregunta 3",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "\u00bfCu\u00e1l de las siguientes es una sintaxis correcta para una declaraci\u00f3n if en Python?"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if x == 10:",
+                        "correct": true
+                    },
+                    {
+                        "text": "if (x == 10)",
+                        "correct": false
+                    },
+                    {
+                        "text": "if x = 10",
+                        "correct": false
+                    },
+                    {
+                        "text": "if x == 10 then:",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

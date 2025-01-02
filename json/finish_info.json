@@ -1,0 +1,10 @@
+{
+    "window_title": "Cuestionario Hexad-12",
+    "title_text": "Cuestionario finalizado, estas listo para aprender?",
+    "title_font_size": 20,
+    "title_margin": 10,
+    "title_word_wrap": true,
+    "finish_button_text": "Iniciar aprendizaje",
+    "continue_button_color": "#00BFFF",
+    "font_size_buttons":18
+  }

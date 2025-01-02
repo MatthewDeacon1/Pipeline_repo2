@@ -1,0 +1,53 @@
+{
+    "pedagogical": [
+        {
+            "title": "Operaciones con listas",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "El operador in también se usa para determinar si una cadena es o no una subcadena de otra cadena."
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nx = 'hello world'\n\nif 'world' in x:\n  print('Yes')"
+                }
+            ]
+        }
+    ],
+
+    "draganddrop": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "multipleResponses": true,
+            "draganddropSecuence": true,
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Reorganice el código para tomar la entrada del usuario, verifique si hay 'correo no deseado' y emita 'Sí' si lo encuentra, y 'No' si no lo está."
+                },
+                {
+                    "type": "Consola",
+                    "text": "___\n\n___\n     ___\n___\n    ___"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "if('spam' in txt):"
+                },
+                {
+                    "text": "print('No')"
+                },
+                {
+                    "text": "print('Yes')"
+                },
+                {
+                    "text": "else:"
+                },
+                {
+                    "text": "txt = input()"
+                }
+            ],
+            "correctOrder": ["txt = input()", "if('spam' in txt):", "print('Yes')", "else:", "print('No')"]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "completeblankspace": [
+        {
+            "title": "Pregunta 8",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Rellena el espacio en blanco para usar un operador l\u00f3gico en la declaraci\u00f3n if:\n\nif x > 5 ___ x < 15:\n    print('Dentro del rango')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "and",
+                        "correct": true
+                    },
+                    {
+                        "text": "or",
+                        "correct": false
+                    },
+                    {
+                        "text": "not",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "draganddrop": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "multipleResponses": true,
+            "draganddropSecuence": true,
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "Complete los espacios en blanco para verificar si la entrada está presente en la lista de 'nombres' y envíe el mensaje."
+                },
+                {
+                    "type": "Consola",
+                    "correctValue": "if",
+                    "text": "name = input()\n___ name ___ names:\n     ___('Nombre encontrado')"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "in"
+                },
+                {
+                    "text": "print"
+                },
+                {
+                    "text": "if"
+                }
+            ],
+            "correctOrder": ["if", "in", "print"]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Selecciona la respuesta correcta",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "¿Qué produce input()?"
+                }
+            ],
+            "answers": [
+                {
+                    "text": "un flotante",
+                    "correct": false
+                },
+                {
+                    "text": "un entero",
+                    "correct": false
+                },
+                {
+                    "text": "una cadena",
+                    "correct": true
+                }
+            ]
+        }
+    ],
+
+    "pedagogical": [
+        {
+            "title": "Input",
+            "blocks": [
+                {
+                    "type": "info",
+                    "text": "El comando input() debe ir seguido de paréntesis."
+                },
+                {
+                    "type": "Consola",
+                    "text": "Código de Python:\n\nname = input()\nprint('Welcome, ' + name)\n>Welcome 'name'"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 10",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Identifica el uso correcto del operador condicional ternario."
+                    },
+                    {
+                        "type": "pregunta1",
+                        "correctValue": "x = 5 if a > b else 10"
+                    },
+                    {
+                        "type": "pregunta2",
+                        "correctValue": "print(x)"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "x = 5 if a > b else 10",
+                        "correctType": "pregunta1"
+                    },
+                    {
+                        "text": "print(x)",
+                        "correctType": "pregunta2"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Pregunta 5",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "\u00bfCu\u00e1l de las siguientes opciones utiliza correctamente una estructura if-elif-else?"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if x > 10:\n    print('Grande')\nelif x == 10:\n    print('Igual')\nelse:\n    print('Peque\u00f1o')",
+                        "correct": true
+                    },
+                    {
+                        "text": "if x > 10:\n    print('Grande')\nelse x == 10:\n    print('Igual')\nelse:\n    print('Peque\u00f1o')",
+                        "correct": false
+                    },
+                    {
+                        "text": "if x > 10:\n    print('Grande')\nelse if x == 10:\n    print('Igual')\nelse:\n    print('Peque\u00f1o')",
+                        "correct": false
+                    },
+                    {
+                        "text": "if x > 10:\n    print('Grande')\nelif x == 10\n    print('Igual')\nelse:\n    print('Peque\u00f1o')",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

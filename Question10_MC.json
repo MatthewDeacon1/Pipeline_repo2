@@ -1,0 +1,34 @@
+{
+    "multiplechoice": [
+        {
+            "title": "Pregunta 10",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "\u00bfCu\u00e1l de los siguientes fragmentos de c\u00f3digo demuestra correctamente una declaraci\u00f3n if con una condici\u00f3n l\u00f3gica o?"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if x > 10 or x < 5:\n    print('Fuera de rango')",
+                        "correct": true
+                    },
+                    {
+                        "text": "if x > 10 and x < 5:\n    print('Fuera de rango')",
+                        "correct": false
+                    },
+                    {
+                        "text": "if x > 10 xor x < 5:\n    print('Fuera de rango')",
+                        "correct": false
+                    },
+                    {
+                        "text": "if x > 10 nor x < 5:\n    print('Fuera de rango')",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,259 @@
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What is the output of the following code? \n\nx = 5\nif x > 3:\n    print('Yes')\nelse:\n    print('No')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Yes",
+            "correct": true
+        },
+        {
+            "text": "No",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to make the statement print 'Correct': \n\nage = 18\nif age ___ 18:\n    print('Correct')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "==",
+            "correct": true
+        },
+        {
+            "text": ">",
+            "correct": false
+        },
+        {
+            "text": "<=",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Which of the following operators will make the if statement true?\n\nscore = 75\nif score ___ 70:\n    print('Pass')"
+        }
+    ],
+    "answers": [
+        {
+            "text": ">=",
+            "correct": true
+        },
+        {
+            "text": "==",
+            "correct": false
+        },
+        {
+            "text": "<",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the code to print 'Even':\n\nnumber = 4\nif number % 2 ___ 0:\n    print('Even')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "==",
+            "correct": true
+        },
+        {
+            "text": ">",
+            "correct": false
+        },
+        {
+            "text": "<",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to check if the variable 'status' is not equal to 'active':\n\nstatus = 'inactive'\nif status ___ 'active':\n    print('Inactive status')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "!=",
+            "correct": true
+        },
+        {
+            "text": "==",
+            "correct": false
+        },
+        {
+            "text": "=",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be printed?\n\nx = 10\ny = 5\nif x > y and y < 10:\n    print('Condition met')\nelse:\n    print('Condition not met')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Condition met",
+            "correct": true
+        },
+        {
+            "text": "Condition not met",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to correctly use an elif statement:\n\nx = 20\nif x < 10:\n    print('Less than 10')\n___ x < 30:\n    print('Less than 30')\nelse:\n    print('30 or more')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "elif",
+            "correct": true
+        },
+        {
+            "text": "else",
+            "correct": false
+        },
+        {
+            "text": "if",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be printed when executed?\n\nx = 5\ny = 10\nif x > 0:\n    if y < 15:\n        print('Nested condition met')\n    else:\n        print('Inner condition not met')\nelse:\n    print('Outer condition not met')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Nested condition met",
+            "correct": true
+        },
+        {
+            "text": "Inner condition not met",
+            "correct": false
+        },
+        {
+            "text": "Outer condition not met",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be printed?\n\nvalue = 'Python'\nif value.startswith('Py') and len(value) > 5:\n    print('Valid')\nelse:\n    print('Invalid')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Valid",
+            "correct": true
+        },
+        {
+            "text": "Invalid",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the code to print 'Access granted' if the user is an admin or has a premium account:\n\nuser_type = 'admin'\naccount_type = 'standard'\nif user_type == 'admin' ___ account_type == 'premium':\n    print('Access granted')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "or",
+            "correct": true
+        },
+        {
+            "text": "and",
+            "correct": false
+        },
+        {
+            "text": "not",
+            "correct": false
+        }
+    ]
+}
+```

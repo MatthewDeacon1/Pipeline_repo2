@@ -1,0 +1,30 @@
+{
+    "completeblankspace": [
+        {
+            "title": "Pregunta 3",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "En el siguiente c\u00f3digo, \u00bfqu\u00e9 se imprimir\u00e1?\n\nz = 7\nif z < 5:\n    print('Peque\u00f1o')\nelse:\n    print('Grande')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "Peque\u00f1o",
+                        "correct": false
+                    },
+                    {
+                        "text": "Grande",
+                        "correct": true
+                    },
+                    {
+                        "text": "Nada",
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    ]
+}

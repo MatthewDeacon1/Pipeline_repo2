@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 6",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Rellena los espacios en blanco para usar elif en una declaraci\u00f3n if."
+                    },
+                    {
+                        "type": "pregunta1",
+                        "correctValue": "elif x == 5:"
+                    },
+                    {
+                        "type": "pregunta2",
+                        "correctValue": "print('x es 5')"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "elif x == 5:",
+                        "correctType": "pregunta1"
+                    },
+                    {
+                        "text": "print('x es 5')",
+                        "correctType": "pregunta2"
+                    }
+                ]
+            }
+        }
+    ]
+}

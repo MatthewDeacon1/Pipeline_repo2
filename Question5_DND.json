@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 5",
+            "question": {
+                "title": "Seleccione la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Identifique el operador l\u00f3gico correcto para combinar condiciones."
+                    },
+                    {
+                        "type": "pregunta1",
+                        "correctValue": "y"
+                    },
+                    {
+                        "type": "pregunta2",
+                        "correctValue": "si x > 0 y y < 10:"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "y",
+                        "correctType": "pregunta1"
+                    },
+                    {
+                        "text": "si x > 0 y y < 10:",
+                        "correctType": "pregunta2"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "draganddrop": [
+        {
+            "title": "Pregunta 8",
+            "question": {
+                "title": "Selecciona la respuesta correcta",
+                "multipleResponses": true,
+                "multipleResponseVariant": true,
+                "blocks": [
+                    {
+                        "type": "info",
+                        "text": "Completa la declaraci\u00f3n if anidada."
+                    },
+                    {
+                        "type": "pregunta1",
+                        "correctValue": "if y > 0:"
+                    },
+                    {
+                        "type": "pregunta2",
+                        "correctValue": "    if x > 0:"
+                    }
+                ],
+                "answers": [
+                    {
+                        "text": "if y > 0:",
+                        "correctType": "pregunta1"
+                    },
+                    {
+                        "text": "    if x > 0:",
+                        "correctType": "pregunta2"
+                    }
+                ]
+            }
+        }
+    ]
+}
