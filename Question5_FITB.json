@@ -1,30 +1,3 @@
-{
-    "completeblankspace": [
-        {
-            "title": "Pregunta 5",
-            "question": {
-                "title": "Selecciona la respuesta correcta",
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "\u00bfCu\u00e1l es la salida del siguiente c\u00f3digo?\n\nb = 12\nif b > 10:\n    print('Alto')\nelse:\n    print('Bajo')"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "Alto",
-                        "correct": true
-                    },
-                    {
-                        "text": "Bajo",
-                        "correct": false
-                    },
-                    {
-                        "text": "Igual",
-                        "correct": false
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52117ac39086963ed421384ce2bece0c95017420ca0bab56d3f3e7eb353bdcbb
+size 934

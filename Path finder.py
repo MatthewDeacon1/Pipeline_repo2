@@ -1,7 +1,3 @@
-import os
-
-absolute_path = r"C:\Users\matth\OneDrive\Desktop\AI_Gamification_Python-main\Elmer\Daniel_JSON_Files_Elmer\Main_Modulos_Intro_Pages.py"
-current_working_directory = os.getcwd()
-
-relative_path = os.path.relpath(absolute_path, current_working_directory)
-print(relative_path)
+version https://git-lfs.github.com/spec/v1
+oid sha256:43bf1179ec4b0da49758a6359626c594e3f14770e05b2f6e8a74b98de5ce2198
+size 291

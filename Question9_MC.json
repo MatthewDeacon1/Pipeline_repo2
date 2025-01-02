@@ -1,34 +1,3 @@
-{
-    "multiplechoice": [
-        {
-            "title": "Pregunta 9",
-            "question": {
-                "title": "Selecciona la respuesta correcta",
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "\u00bfCu\u00e1l ser\u00e1 la salida de este c\u00f3digo?\n\nx = 5\ny = 10\nif x > 3:\n    if y < 15:\n        print('Anidado Verdadero')\n    else:\n        print('Anidado Falso')\nelse:\n    print('Externo Falso')"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "Anidado Verdadero",
-                        "correct": true
-                    },
-                    {
-                        "text": "Anidado Falso",
-                        "correct": false
-                    },
-                    {
-                        "text": "Externo Falso",
-                        "correct": false
-                    },
-                    {
-                        "text": "Nada",
-                        "correct": false
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df01cc3bbd9c1f5b2f401bee4c8a267bc3ae4f12dcf43a057140d418d7785284
+size 1182

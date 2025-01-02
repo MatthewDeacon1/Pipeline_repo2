@@ -1,36 +1,3 @@
-{
-    "pedagogical": [ 
-        {
-            "title": "Hora de practicar.",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Use nuestro ejercicio Code Coach a continuación para practicar y escribir código real."
-                },
-                {
-                    "type": "requerimiento",
-                    "text": "Números pares - Cambie el código para que solo genere números pares de un rango determinado."
-                }
-            ]
-        }
-    ],
-    "pedagogical2": [
-        {
-            "title": "Bucles while.",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Se le proporciona un programa que genera todos los números del 0 al 10. Cambie el código para que genere solo los números pares."
-                },
-                {
-                    "type": "hint",
-                    "text": "Cualquier número entero que se puede dividir exactamente por 2 es un número par."
-                },
-                {
-                    "type": "Consola",
-                    "text": "x = 0\nwhile x<=10:\n  if x%2 == 0:\n    print(x)\n  x += 1"
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e24ef9be51d1fc25af4b94916f68c040cc92cd9e41f3f2e954379f4eb772a912
+size 1242

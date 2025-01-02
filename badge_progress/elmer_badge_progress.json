@@ -1,17 +1,3 @@
-{
-    "streak": 0,
-    "gran_paso": true,
-    "hello_world": false,
-    "5_correctas": false,
-    "10_correctas": false,
-    "20_correctas": false,
-    "intermedio": false,
-    "avanzado": false,
-    "experto": false,
-    "doble_aprendizaje": false,
-    "modulo_rapido": false,
-    "dominador_modulo": false,
-    "super_estudiante": false,
-    "Maestro_desafiante": false,
-    "Explorador_curioso": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:83dda2423a4ab425fc57617e3dc76d6c77e81c122a80dc9d15781e5b11c02273
+size 406

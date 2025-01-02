@@ -1,36 +1,3 @@
-{
-    "draganddrop": [
-        {
-            "title": "Pregunta 8",
-            "question": {
-                "title": "Selecciona la respuesta correcta",
-                "multipleResponses": true,
-                "multipleResponseVariant": true,
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "Completa la declaraci\u00f3n if anidada."
-                    },
-                    {
-                        "type": "pregunta1",
-                        "correctValue": "if y > 0:"
-                    },
-                    {
-                        "type": "pregunta2",
-                        "correctValue": "    if x > 0:"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "if y > 0:",
-                        "correctType": "pregunta1"
-                    },
-                    {
-                        "text": "    if x > 0:",
-                        "correctType": "pregunta2"
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e150d7ac4f71244dc26ff96a6eda7721635b9d1e0e62e4c6758ef779568078d
+size 1139

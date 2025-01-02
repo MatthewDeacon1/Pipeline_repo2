@@ -1,31 +1,3 @@
-{
-    "multiplechoice": [
-        {
-            "title": "Selecciona la respuesta correcta",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "¿Cuál es la salida de este código?"
-                },
-                {
-                    "type": "Consola",
-                    "text": "Código de Python:\n\nnums = [1, 2, 3, 4]\nres = 0\n\nfor x in nums:\n    if x%2==0:\n        continue\n    else:\n        res += x\n\nprint(res)"
-                }
-            ],
-            "answers": [
-                {
-                    "text": "7",
-                    "correct": false
-                },
-                {
-                    "text": "4",
-                    "correct": true
-                },
-                {
-                    "text": "3",
-                    "correct": false
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:85bf9d162ccb9ef68f86ee9f8e738592c9901e9e259c44426f2e8c96517433bb
+size 900

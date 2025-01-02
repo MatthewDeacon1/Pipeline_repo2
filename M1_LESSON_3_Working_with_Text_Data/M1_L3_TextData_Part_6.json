@@ -1,21 +1,3 @@
-{
-    "pedagogical": [ 
-        {
-            "title": "El conocimiento es poder",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "El programa dado esta diseñado para generar el texto: El conocimiento es poder \n Pero falta la ultima palabra. ¿Puedes arreglarlo?"
-                },
-                {
-                    "type": "info",
-                    "text": "Complete el código para generar el resultado requerido."
-                },
-                {
-                    "type": "Consola",
-                    "text": "Código de Python:\n\nprint('Conocimiento ' + 'es poder')\n>'Conocimiento es poder'"
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87ac4683d1817d3c988c528c557baf52c460f079932d188e155347bbf5352b93
+size 725

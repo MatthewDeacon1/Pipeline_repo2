@@ -1,27 +1,3 @@
-{
-    "window_title": "Cuestionario Hexad-12",
-    "title_text": "Pregunta #",
-    "title_font_size": 20,
-    "title_word_wrap": true,
-    "title_margin": 10,
-    "continue_button_color": "#00BFFF",
-    "font_size_buttons":18,
-
-    "content_font_size": 17,
-    "content_word_wrap": true,
-    "content_margin": 10,
-
-    "radio_text": {
-        "radio_1": "Totalmente en desacuerdo",
-        "radio_2": "En desacuerdo",
-        "radio_3": "Ligeramente en desacuerdo",
-        "radio_4": "Neutral",
-        "radio_5": "Ligeramente de acuerdo",
-        "radio_6": "De acuerdo",
-        "radio_7": "Totalmente de acuerdo"
-    },
-
-    "next_button_text": "Siguiente",
-    "next_button_enabled": false,
-    "Default_ConsentUser_button_color": "#9B9B9B"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46021b3fac3654a4f2a0b4289a321c0116901e95cf4a522bfc11710101876a01
+size 747

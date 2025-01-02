@@ -1,33 +1,3 @@
-{
-    "pedagogical": [
-        {
-            "title": "La interacción del usuario",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Muchos programas informáticos están diseñados para que otros usuarios puedan interactuar con ellos. Estos programas toman información de los usuarios. Por ejemplo, un juego puede solicitar el nombre y la edad del usuario como entrada para \nusar durante el juego."
-                },
-                {
-                    "type": "info",
-                    "text": "En esta lección, aprenderá a escribir programas interactivos que toman información del usuario como entrada para trabajar."
-                }
-            ]
-        }
-    ],
-
-    "pedagogical2": [
-        {
-            "title": "Entrada del usuario",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "El comando input () le pide al usuario que ingrese y devuelve lo que ingresa como una cadena. Como esto:"
-                },
-                {
-                    "type": "Consola",
-                    "text": "Código de Python:\n\nx = input()\nprint(x)\n>_?"
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1d6a60759313d49382b50ce2fec6c3817c42bca0daa366019ac2edaabfeabe5
+size 1234

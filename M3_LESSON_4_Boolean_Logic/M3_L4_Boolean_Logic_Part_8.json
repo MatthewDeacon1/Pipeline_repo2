@@ -1,35 +1,3 @@
-{
-    "multiplechoice": [
-        {
-            "title": "Selecciona la respuesta correcta",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "¿Cuál es la salida de este código?"
-                },
-                {
-                    "type": "Consola",
-                    "text": "Código de Python:\n\nprint(2*2+2)\n>?"
-                }
-            ],
-            "answers": [
-                {
-                    "text": "6",
-                    "correct": true
-                },
-                {
-                    "text": "8",
-                    "correct": false
-                },
-                {
-                    "text": "4",
-                    "correct": false
-                },
-                {
-                    "text": "2",
-                    "correct": false
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:16e36faddb5db8050d0af3ee1a7700e9fc01cf74942e07c9775b128aa726d862
+size 900

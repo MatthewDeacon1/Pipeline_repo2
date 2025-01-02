@@ -1,17 +1,3 @@
-{
-    "pedagogical": [
-        {
-            "title": "Operadores In-Place",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Hemos cubierto una serie de temas importantes, como variables, entrada y operadores.\nEstos se pueden usar juntos para hacer un programa más complejo.\n\nPor ejemplo, hagamos un programa que tome millas como entrada\n y genere el valor de km correspondiente:"
-                },
-                {
-                    "type": "Consola",
-                    "text": "Código de Python:\n\nmiles = int(input())\nkm = miles * 1.60934\nprint(km)"
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:62881fb5d30e42cdc8bc50a13850cd833964b2149dc0df83712116b67912d9f1
+size 677

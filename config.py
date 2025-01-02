@@ -1,14 +1,3 @@
-import os
-import sys
-
-
-class Config:
-    _user_name = ""
-
-    @classmethod
-    def set_user_name(cls, name):
-        cls._user_name = name
-
-    @classmethod
-    def get_user_name(cls):
-        return cls._user_name
+version https://git-lfs.github.com/spec/v1
+oid sha256:c43feaf7e8ffb6a6ba96004eacbc312d84a86efbad830a32f5dd7902fb4ad0c1
+size 215

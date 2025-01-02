@@ -1,30 +1,3 @@
-{
-    "draganddrop": [
-        {
-            "title": "Selecciona la respuesta correcta.",
-            "multipleResponses": true,
-            "draganddropSecuence": true,
-            "blocks": [
-                {
-                    "type": "Consola",
-                    "text": "Arrastre el código para crear un bucle que genere los números del 5 al 0:\n\nx = 5 \n___ ___\n    ___\n    ___ "
-                }
-            ],
-            "answers": [
-                {
-                    "text": "print(x)"
-                },
-                {
-                    "text": "x -= 1"
-                },
-                {
-                    "text": "x > 0:"
-                },
-                {
-                    "text": "while"
-                }
-            ],
-            "correctOrder": ["while","x > 0:","print(x)","x -= 1"]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:161bf03066af7d2eced7d7bce4663aa839627050070f9716e5001a488dba4e33
+size 849

@@ -1,33 +1,3 @@
-{
-    "pedagogical": [ 
-        {
-            "title": "Hora de practicar",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Use nuestro ejercicio Code Coach a continuación para practicar y escribir código real."
-                },
-                {
-                    "type": "info",
-                    "text": "Listas - Escriba un programa que tome una cadena de entrada y emita el tercer carácter de la cadena."
-                }
-            ]
-        }
-    ],
-
-    "pedagogical2": [
-        {
-            "title": "Listas",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Escriba un programa que tome una cadena de entrada y emita el tercer carácter de la cadena."
-                },
-                {
-                    "type": "Consola",
-                    "text": "Código de Python:\n\n#your code goes here\ntexto = input()\ncadena = texto\nprint(cadena[2])"
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:51122bc1f4cb284d6f81a4b8c057218eb96f543009a0051ffbdcbf73358f0b45
+size 1042

@@ -1,35 +1,3 @@
-{
-    "multiplechoice": [
-        {
-            "title": "Selecciona la respuesta correcta",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Recuerde, las cadenas también son listas. ¿Cuál es el resultado de este código?"
-                },
-                {
-                    "type": "Consola",
-                    "text": "Código de Python:\ntxt = 'hello'\nprint(max(txt))"
-                }
-            ],
-            "answers": [
-                {
-                    "text": "o",
-                    "correct": true
-                },
-                {
-                    "text": "s",
-                    "correct": false
-                },
-                {
-                    "text": "l",
-                    "correct": false
-                },
-                {
-                    "text": "e",
-                    "correct": false
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd1fd0703b9ec9314bd62390c5da5f4abf640c6883302c618ceb7728661d3015
+size 958

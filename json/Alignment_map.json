@@ -1,17 +1,3 @@
-{
-    "horizontal": {
-        "left": 1,
-        "right": 2,
-        "hcenter": 4,
-        "justify": 8,
-        "absolute_position": 256,
-        "justify_right": 512
-    },
-    "vertical": {
-        "top": 32,
-        "bottom": 64,
-        "vcenter": 128,
-        "justify": 256,
-        "absolute_position": 512
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e34d08033e83e1555a28ec47eb4be7ad452afb43c357e376f004130d871971e2
+size 323

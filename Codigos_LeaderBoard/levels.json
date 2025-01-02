@@ -1,18 +1,3 @@
-[
-  {
-    "name": "Principiante",
-    "range": "<= 50"
-  },
-  {
-    "name": "Intermedio",
-    "range": "51 - 199"
-  },
-  {
-    "name": "Avanzado",
-    "range": "200 - 399"
-  },
-  {
-    "name": "Experto",
-    "range": "399 - 20000"
-  }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:285cd95ed5adb40db1360662aa41661cf6d8cd2756da7a5a37fb4ee94e0670ee
+size 237

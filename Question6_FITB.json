@@ -1,30 +1,3 @@
-{
-    "completeblankspace": [
-        {
-            "title": "Pregunta 6",
-            "question": {
-                "title": "Selecciona la respuesta correcta",
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "Rellena el espacio en blanco para crear una declaraci\u00f3n if anidada:\n\nx = 8\nif x > 5:\n    if x < 10:\n        print('En rango')\n\nEl espacio en blanco debe llenarse con 'if x ___ 10:'"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "<",
-                        "correct": true
-                    },
-                    {
-                        "text": ">",
-                        "correct": false
-                    },
-                    {
-                        "text": "==",
-                        "correct": false
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:397821b103905059d3d55f7f53d9fa5d1843d73350324c09c49dcc034ad7212b
+size 995

@@ -1,36 +1,3 @@
-{
-    "draganddrop": [
-        {
-            "title": "Pregunta 9",
-            "question": {
-                "title": "Selecciona la respuesta correcta",
-                "multipleResponses": true,
-                "multipleResponseVariant": true,
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "Elige la sintaxis correcta para usar una declaraci\u00f3n if con una lista."
-                    },
-                    {
-                        "type": "question1",
-                        "correctValue": "if 'apple' in fruits:"
-                    },
-                    {
-                        "type": "question2",
-                        "correctValue": "print('Apple is in the list')"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "if 'apple' in fruits:",
-                        "correctType": "question1"
-                    },
-                    {
-                        "text": "print('Apple is in the list')",
-                        "correctType": "question2"
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:62eb9d4b7cc8946a80d03c5de0b2a120d9412a9959956455e0b2a3bd1220cb0f
+size 1230

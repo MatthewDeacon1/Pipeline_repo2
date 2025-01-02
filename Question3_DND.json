@@ -1,36 +1,3 @@
-{
-    "draganddrop": [
-        {
-            "title": "Pregunta 3",
-            "question": {
-                "title": "Selecciona la respuesta correcta",
-                "multipleResponses": true,
-                "multipleResponseVariant": true,
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "Completa la declaraci\u00f3n if-else."
-                    },
-                    {
-                        "type": "pregunta1",
-                        "correctValue": "else:"
-                    },
-                    {
-                        "type": "pregunta2",
-                        "correctValue": "print('Condici\u00f3n no cumplida')"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "else:",
-                        "correctType": "pregunta1"
-                    },
-                    {
-                        "text": "print('Condici\u00f3n no cumplida')",
-                        "correctType": "pregunta2"
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8baa227b82af2e38c8f820b92ac4d9da1817b4e4c3b1363b1037eb99bc582ad
+size 1172

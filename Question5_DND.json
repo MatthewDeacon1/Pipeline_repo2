@@ -1,36 +1,3 @@
-{
-    "draganddrop": [
-        {
-            "title": "Pregunta 5",
-            "question": {
-                "title": "Seleccione la respuesta correcta",
-                "multipleResponses": true,
-                "multipleResponseVariant": true,
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "Identifique el operador l\u00f3gico correcto para combinar condiciones."
-                    },
-                    {
-                        "type": "pregunta1",
-                        "correctValue": "y"
-                    },
-                    {
-                        "type": "pregunta2",
-                        "correctValue": "si x > 0 y y < 10:"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "y",
-                        "correctType": "pregunta1"
-                    },
-                    {
-                        "text": "si x > 0 y y < 10:",
-                        "correctType": "pregunta2"
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2436e789ca1a18f0d8c77ade6da30982ebb9b5629b366cf011cfa4402fb9ec85
+size 1164

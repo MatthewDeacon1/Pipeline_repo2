@@ -1,14 +1,3 @@
-[
-    {
-        "badge_id": "5_correctas",
-        "value": 5
-    },
-    {
-        "badge_id": "10_correctas",
-        "value": 10
-    },
-    {
-        "badge_id": "20_correctas",
-        "value": 20
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bdc2a48ff1d6be8d6d18df0e1096d5926d396e6e30538eb01f5fb5829282447
+size 207

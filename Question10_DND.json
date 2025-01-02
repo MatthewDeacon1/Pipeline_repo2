@@ -1,36 +1,3 @@
-{
-    "draganddrop": [
-        {
-            "title": "Pregunta 10",
-            "question": {
-                "title": "Selecciona la respuesta correcta",
-                "multipleResponses": true,
-                "multipleResponseVariant": true,
-                "blocks": [
-                    {
-                        "type": "info",
-                        "text": "Identifica el uso correcto del operador condicional ternario."
-                    },
-                    {
-                        "type": "pregunta1",
-                        "correctValue": "x = 5 if a > b else 10"
-                    },
-                    {
-                        "type": "pregunta2",
-                        "correctValue": "print(x)"
-                    }
-                ],
-                "answers": [
-                    {
-                        "text": "x = 5 if a > b else 10",
-                        "correctType": "pregunta1"
-                    },
-                    {
-                        "text": "print(x)",
-                        "correctType": "pregunta2"
-                    }
-                ]
-            }
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c8b4826f9409d7e8fc760cc6ab10c4fc728eb8a88aa1cc8825d2c0bc6d71705
+size 1177

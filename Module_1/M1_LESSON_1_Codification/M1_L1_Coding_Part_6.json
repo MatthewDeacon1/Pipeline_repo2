@@ -1,21 +1,3 @@
-{
-    "pedagogical": [
-        {
-            "title": "Leccion aprendidas",
-            "blocks": [
-                {
-                    "type": "info",
-                    "text": "Impresionante! Has completado tu primera leccion. Recuerde los siguientes puntos importantes:"
-                },
-                {
-                    "type": "info",
-                    "text": "El comando print debe ir seguido de paréntesis, encerrando la salida que queremos enviar a la pantalla. Un mensaje de texto debe estar entre comillas. No necesitas comillas para generar números."
-                },
-                {
-                    "type": "hint",
-                    "text": "En la proxima leccion, comenzara a trabajar con datos numéricos para que pueda resolver tu primer reto Code Coach!"
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2e2e39988362a0ab191e2f0a83b58dca91830ff88ed3b0a6e2f42571bd8188b
+size 846
