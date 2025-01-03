@@ -1,6 +1,6 @@
-Here are 10 multiple choice questions on the topic of if statements, with increasing difficulty from 1 to 10:
+Here are 10 multiple choice questions about if statements, incrementing in difficulty from 1 to 10:
 
-### Difficulty 1
+1. **Difficulty Level 1**
 ```json
 {
     "title": "Select the correct answer",
@@ -24,52 +24,114 @@ Here are 10 multiple choice questions on the topic of if statements, with increa
             "correct": false
         },
         {
-            "text": "None",
+            "text": "3",
             "correct": false
         }
     ]
 }
 ```
 
-### Difficulty 2
+2. **Difficulty Level 2**
 ```json
 {
     "title": "Select the correct answer",
     "blocks": [
         {
             "type": "info",
-            "text": "Which of the following is a correct syntax for an if statement in Python?"
+            "text": "Which of the following correctly checks if a variable 'y' is equal to 10?"
         }
     ],
     "answers": [
         {
-            "text": "if x == 10:",
+            "text": "if y == 10:",
             "correct": true
         },
         {
-            "text": "if x = 10 then:",
+            "text": "if y = 10:",
             "correct": false
         },
         {
-            "text": "if (x == 10)",
+            "text": "if y === 10:",
             "correct": false
         },
         {
-            "text": "if x: 10",
+            "text": "if y != 10:",
             "correct": false
         }
     ]
 }
 ```
 
-### Difficulty 3
+3. **Difficulty Level 3**
 ```json
 {
     "title": "Select the correct answer",
     "blocks": [
         {
             "type": "info",
-            "text": "What will be the output of the following code?\n\nx = 7\ny = 10\nif x < y:\n    print('x is less than y')\nelse:\n    print('x is not less than y')"
+            "text": "What will the following code output?\n\nx = 7\nif x < 5:\n    print('Small')\nelse:\n    print('Big')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Big",
+            "correct": true
+        },
+        {
+            "text": "Small",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        }
+    ]
+}
+```
+
+4. **Difficulty Level 4**
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Which of the following statements is true about the 'elif' keyword in Python?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "'elif' is used to check multiple expressions for TRUE and execute a block of code as soon as one of the conditions is TRUE.",
+            "correct": true
+        },
+        {
+            "text": "'elif' is mandatory after every 'if' statement.",
+            "correct": false
+        },
+        {
+            "text": "'elif' can only be used once in an if-else chain.",
+            "correct": false
+        },
+        {
+            "text": "'elif' is used to end an if-else chain.",
+            "correct": false
+        }
+    ]
+}
+```
+
+5. **Difficulty Level 5**
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be the output of the following code?\n\nx = 10\ny = 20\nif x < y:\n    print('x is less than y')\nelif x > y:\n    print('x is greater than y')\nelse:\n    print('x and y are equal')"
         }
     ],
     "answers": [
@@ -78,7 +140,38 @@ Here are 10 multiple choice questions on the topic of if statements, with increa
             "correct": true
         },
         {
-            "text": "x is not less than y",
+            "text": "x is greater than y",
+            "correct": false
+        },
+        {
+            "text": "x and y are equal",
+            "correct": false
+        },
+        {
+            "text": "No output",
+            "correct": false
+        }
+    ]
+}
+```
+
+6. **Difficulty Level 6**
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Consider the following code:\n\na = 5\nb = 5\nc = 10\nif a == b and c > b:\n    print('Both conditions are True')\nelse:\n    print('At least one condition is False')\n\nWhat will be the output?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Both conditions are True",
+            "correct": true
+        },
+        {
+            "text": "At least one condition is False",
             "correct": false
         },
         {
@@ -86,228 +179,135 @@ Here are 10 multiple choice questions on the topic of if statements, with increa
             "correct": false
         },
         {
-            "text": "Nothing",
+            "text": "No output",
             "correct": false
         }
     ]
 }
 ```
 
-### Difficulty 4
+7. **Difficulty Level 7**
 ```json
 {
     "title": "Select the correct answer",
     "blocks": [
         {
             "type": "info",
-            "text": "What will be the output of the following code?\n\nx = 3\nif x > 1:\n    print('A')\nif x > 2:\n    print('B')\nif x > 3:\n    print('C')"
+            "text": "Which of the following code snippets will correctly print 'Correct!' if the variable 'flag' is either True or the variable 'count' is greater than 5?"
         }
     ],
     "answers": [
         {
-            "text": "A B",
+            "text": "if flag or count > 5:\n    print('Correct!')",
             "correct": true
         },
         {
-            "text": "A B C",
+            "text": "if flag and count > 5:\n    print('Correct!')",
             "correct": false
         },
         {
-            "text": "A",
+            "text": "if flag == count > 5:\n    print('Correct!')",
             "correct": false
         },
         {
-            "text": "B C",
+            "text": "if flag != count > 5:\n    print('Correct!')",
             "correct": false
         }
     ]
 }
 ```
 
-### Difficulty 5
+8. **Difficulty Level 8**
 ```json
 {
     "title": "Select the correct answer",
     "blocks": [
         {
             "type": "info",
-            "text": "Consider the following code:\n\nx = 5\ny = 5\nif x == y:\n    print('Equal')\nelse:\n    print('Not equal')\n\nWhat will be printed?"
+            "text": "Given the following code, what will be the output?\n\nx = 5\ny = 10\nif x > 3:\n    if y < 15:\n        print('Nested True')\n    else:\n        print('Nested False')\nelse:\n    print('Outer False')"
         }
     ],
     "answers": [
         {
-            "text": "Equal",
+            "text": "Nested True",
             "correct": true
         },
         {
-            "text": "Not equal",
+            "text": "Nested False",
             "correct": false
         },
         {
-            "text": "Error",
+            "text": "Outer False",
             "correct": false
         },
         {
-            "text": "Nothing",
+            "text": "No output",
             "correct": false
         }
     ]
 }
 ```
 
-### Difficulty 6
+9. **Difficulty Level 9**
 ```json
 {
     "title": "Select the correct answer",
     "blocks": [
         {
             "type": "info",
-            "text": "What will be the output of the following code?\n\nx = 10\nif x > 5:\n    if x < 15:\n        print('x is between 5 and 15')\n    else:\n        print('x is greater than or equal to 15')\nelse:\n    print('x is less than or equal to 5')"
+            "text": "In the following code snippet, under what condition will 'Special Case' be printed?\n\nvalue = 10\nif value > 5:\n    if value == 10:\n        print('Special Case')\n    else:\n        print('General Case')"
         }
     ],
     "answers": [
         {
-            "text": "x is between 5 and 15",
+            "text": "When value is exactly 10",
             "correct": true
         },
         {
-            "text": "x is greater than or equal to 15",
+            "text": "When value is greater than 10",
             "correct": false
         },
         {
-            "text": "x is less than or equal to 5",
+            "text": "When value is less than 5",
             "correct": false
         },
         {
-            "text": "Error",
+            "text": "When value is less than or equal to 5",
             "correct": false
         }
     ]
 }
 ```
 
-### Difficulty 7
+10. **Difficulty Level 10**
 ```json
 {
     "title": "Select the correct answer",
     "blocks": [
         {
             "type": "info",
-            "text": "What will be the output of the following code?\n\nx = 20\ny = 15\nif x > y:\n    print('x > y')\nelif x == y:\n    print('x == y')\nelse:\n    print('x < y')"
+            "text": "What will be the output of the following code?\n\nx = 0\ny = 10\nif x:\n    if y:\n        print('Both x and y are True')\n    else:\n        print('x is True, y is False')\nelse:\n    if y:\n        print('x is False, y is True')\n    else:\n        print('Both x and y are False')"
         }
     ],
     "answers": [
         {
-            "text": "x > y",
+            "text": "x is False, y is True",
             "correct": true
         },
         {
-            "text": "x == y",
+            "text": "Both x and y are True",
             "correct": false
         },
         {
-            "text": "x < y",
+            "text": "x is True, y is False",
             "correct": false
         },
         {
-            "text": "Error",
+            "text": "Both x and y are False",
             "correct": false
         }
     ]
 }
 ```
 
-### Difficulty 8
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "What will be the output of the following code?\n\nx = 5\ny = 10\nif x > y:\n    print('x is greater')\nelse:\n    if x == y:\n        print('x is equal')\n    else:\n        print('x is lesser')"
-        }
-    ],
-    "answers": [
-        {
-            "text": "x is lesser",
-            "correct": true
-        },
-        {
-            "text": "x is greater",
-            "correct": false
-        },
-        {
-            "text": "x is equal",
-            "correct": false
-        },
-        {
-            "text": "Error",
-            "correct": false
-        }
-    ]
-}
-```
-
-### Difficulty 9
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "What will be the output of the following code?\n\nx = 0\nif x:\n    print('True')\nelse:\n    print('False')"
-        }
-    ],
-    "answers": [
-        {
-            "text": "False",
-            "correct": true
-        },
-        {
-            "text": "True",
-            "correct": false
-        },
-        {
-            "text": "Error",
-            "correct": false
-        },
-        {
-            "text": "Nothing",
-            "correct": false
-        }
-    ]
-}
-```
-
-### Difficulty 10
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "What will be the output of the following code?\n\nx = 'hello'\nif x:\n    if len(x) > 5:\n        print('Long string')\n    else:\n        print('Short string')\nelse:\n    print('Empty string')"
-        }
-    ],
-    "answers": [
-        {
-            "text": "Short string",
-            "correct": true
-        },
-        {
-            "text": "Long string",
-            "correct": false
-        },
-        {
-            "text": "Empty string",
-            "correct": false
-        },
-        {
-            "text": "Error",
-            "correct": false
-        }
-    ]
-}
-```
-
-These questions gradually increase in complexity, covering basic if statement syntax, nested ifs, and logical evaluations.
+These questions cover a range of concepts related to if statements in Python, from basic syntax to nested conditions and logical operators.

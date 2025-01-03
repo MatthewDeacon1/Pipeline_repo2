@@ -1,0 +1,313 @@
+Here are 10 multiple choice questions about "if statements," with difficulty levels ranging from 1 to 10:
+
+### Difficulty Level 1
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What is the purpose of an if statement in Python?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "To execute a block of code only if a specified condition is true.",
+            "correct": true
+        },
+        {
+            "text": "To repeat a block of code multiple times.",
+            "correct": false
+        },
+        {
+            "text": "To define a function.",
+            "correct": false
+        },
+        {
+            "text": "To import modules.",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 2
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Which of the following is the correct syntax for an if statement in Python?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if condition:",
+            "correct": true
+        },
+        {
+            "text": "if (condition)",
+            "correct": false
+        },
+        {
+            "text": "if: condition",
+            "correct": false
+        },
+        {
+            "text": "if condition then",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 3
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be the output of the following code?\n\nx = 5\nif x > 3:\n    print('Hello')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Hello",
+            "correct": true
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        },
+        {
+            "text": "5",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 4
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Consider the following code:\n\nx = 10\nif x < 5:\n    print('Small')\nelse:\n    print('Large')\n\nWhat is the output?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Large",
+            "correct": true
+        },
+        {
+            "text": "Small",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 5
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Which of the following correctly uses an if-elif-else structure?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if x > 10:\n    print('Large')\nelif x == 10:\n    print('Equal')\nelse:\n    print('Small')",
+            "correct": true
+        },
+        {
+            "text": "if x > 10:\n    print('Large')\nelse x == 10:\n    print('Equal')\nelse:\n    print('Small')",
+            "correct": false
+        },
+        {
+            "text": "if x > 10:\n    print('Large')\nelse if x == 10:\n    print('Equal')\nelse:\n    print('Small')",
+            "correct": false
+        },
+        {
+            "text": "if x > 10:\n    print('Large')\nelif x == 10\n    print('Equal')\nelse:\n    print('Small')",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 6
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What is the output of the following code?\n\nx = 3\ny = 4\nif x > 2 and y < 5:\n    print('Both conditions are true')\nelse:\n    print('At least one condition is false')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Both conditions are true",
+            "correct": true
+        },
+        {
+            "text": "At least one condition is false",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 7
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be the output of this code?\n\nx = 5\nif x > 5:\n    print('Greater')\nelif x < 5:\n    print('Smaller')\nelse:\n    print('Equal')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Equal",
+            "correct": true
+        },
+        {
+            "text": "Greater",
+            "correct": false
+        },
+        {
+            "text": "Smaller",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 8
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Which of the following is true about the code snippet?\n\nx = 10\nif x > 5:\n    if x < 15:\n        print('x is between 5 and 15')\nelse:\n    print('x is not greater than 5')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "The code will print 'x is between 5 and 15'",
+            "correct": true
+        },
+        {
+            "text": "The code will print 'x is not greater than 5'",
+            "correct": false
+        },
+        {
+            "text": "The code will print nothing",
+            "correct": false
+        },
+        {
+            "text": "The code will cause an error",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 9
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What will be the output of this code?\n\nx = 5\ny = 10\nif x > 3:\n    if y < 15:\n        print('Nested True')\n    else:\n        print('Nested False')\nelse:\n    print('Outer False')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Nested True",
+            "correct": true
+        },
+        {
+            "text": "Nested False",
+            "correct": false
+        },
+        {
+            "text": "Outer False",
+            "correct": false
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        }
+    ]
+}
+```
+
+### Difficulty Level 10
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Which of the following code snippets correctly demonstrates an if statement with a logical or condition?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "if x > 10 or x < 5:\n    print('Out of range')",
+            "correct": true
+        },
+        {
+            "text": "if x > 10 and x < 5:\n    print('Out of range')",
+            "correct": false
+        },
+        {
+            "text": "if x > 10 xor x < 5:\n    print('Out of range')",
+            "correct": false
+        },
+        {
+            "text": "if x > 10 nor x < 5:\n    print('Out of range')",
+            "correct": false
+        }
+    ]
+}
+```
+
+These questions cover a range of difficulties, starting with basic concepts and syntax, and moving towards more complex logical structures and nested conditions.
