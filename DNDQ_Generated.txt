@@ -6,27 +6,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Fill in the blanks for basic if statements in Python."
+            "text": "Fill in the blank to complete the if statement to check if the variable 'x' is equal to 10."
         },
         {
             "type": "question1",
-            "correctValue": "if",
-            "text": "To start a conditional block, use the keyword ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "else",
-            "text": "To execute a block of code when the condition is false, use the keyword ___"
+            "correctValue": "==",
+            "text": "if x ___ 10:"
         }
     ],
     "answers": [
         {
-            "text": "if",
+            "text": "==",
             "correctType": "question1"
         },
         {
-            "text": "else",
-            "correctType": "question2"
+            "text": "=",
+            "correctType": ""
+        },
+        {
+            "text": "!=",
+            "correctType": ""
         }
     ]
 }
@@ -40,27 +39,158 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Identify the correct syntax for if-else statements."
+            "text": "Complete the if statement to print 'Hello' if the variable 'y' is greater than 5."
         },
         {
             "type": "question1",
-            "correctValue": ":",
-            "text": "Each if statement ends with a ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "elif",
-            "text": "To check multiple conditions, use the keyword ___"
+            "correctValue": ">",
+            "text": "if y ___ 5: print('Hello')"
         }
     ],
     "answers": [
         {
-            "text": ":",
+            "text": ">",
+            "correctType": "question1"
+        },
+        {
+            "text": "<",
+            "correctType": ""
+        },
+        {
+            "text": ">=",
+            "correctType": ""
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to check if the variable 'z' is not equal to 0."
+        },
+        {
+            "type": "question1",
+            "correctValue": "!=",
+            "text": "if z ___ 0:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "!=",
+            "correctType": "question1"
+        },
+        {
+            "text": "==",
+            "correctType": ""
+        },
+        {
+            "text": "=",
+            "correctType": ""
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the if statement to check if 'a' is less than or equal to 'b'."
+        },
+        {
+            "type": "question1",
+            "correctValue": "<=",
+            "text": "if a ___ b:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "<=",
+            "correctType": "question1"
+        },
+        {
+            "text": "<",
+            "correctType": ""
+        },
+        {
+            "text": ">=",
+            "correctType": ""
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to check if 'num' is between 1 and 10 (inclusive)."
+        },
+        {
+            "type": "question1",
+            "correctValue": "<=",
+            "text": "if 1 ___ num ___ 10:"
+        }
+    ],
+    "answers": [
+        {
+            "text": "<=",
+            "correctType": "question1"
+        },
+        {
+            "text": "<",
+            "correctType": ""
+        },
+        {
+            "text": ">",
+            "correctType": ""
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "multipleResponses": true,
+    "multipleResponseVariant": true,
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Complete the if-else statement to check if 'flag' is True and print 'Active'. Otherwise, print 'Inactive'."
+        },
+        {
+            "type": "question1",
+            "correctValue": "else",
+            "text": "if flag: print('Active') ___: print('Inactive')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "else",
             "correctType": "question1"
         },
         {
             "text": "elif",
-            "correctType": "question2"
+            "correctType": ""
+        },
+        {
+            "text": "if",
+            "correctType": ""
         }
     ]
 }
@@ -74,17 +204,12 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Understanding logical operators in if statements."
+            "text": "Fill in the blanks to use logical operators to check if 'a' is greater than 'b' and 'c' is less than 'd'."
         },
         {
             "type": "question1",
             "correctValue": "and",
-            "text": "To combine conditions that must all be true, use ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "or",
-            "text": "To combine conditions where only one must be true, use ___"
+            "text": "if a > b ___ c < d:"
         }
     ],
     "answers": [
@@ -94,7 +219,11 @@
         },
         {
             "text": "or",
-            "correctType": "question2"
+            "correctType": ""
+        },
+        {
+            "text": "not",
+            "correctType": ""
         }
     ]
 }
@@ -108,27 +237,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Determine the correct output of nested if statements."
+            "text": "Complete the nested if statement to print 'Valid' if 'x' is positive and 'y' is even."
         },
         {
             "type": "question1",
-            "correctValue": "nested",
-            "text": "An if statement inside another if statement is called ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "indentation",
-            "text": "Python uses ___ to determine the block of code associated with an if statement."
+            "correctValue": "if y % 2 == 0",
+            "text": "if x > 0: ___: print('Valid')"
         }
     ],
     "answers": [
         {
-            "text": "nested",
+            "text": "if y % 2 == 0",
             "correctType": "question1"
         },
         {
-            "text": "indentation",
-            "correctType": "question2"
+            "text": "if y == 0",
+            "correctType": ""
+        },
+        {
+            "text": "if y != 0",
+            "correctType": ""
         }
     ]
 }
@@ -142,27 +270,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Explore the use of comparison operators in if statements."
+            "text": "Fill in the blanks to use an if-elif-else statement to print 'Low', 'Medium', or 'High' based on the value of 'score'."
         },
         {
             "type": "question1",
-            "correctValue": "==",
-            "text": "To check if two values are equal, use ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "!=",
-            "text": "To check if two values are not equal, use ___"
+            "correctValue": "elif score < 70",
+            "text": "if score < 50: print('Low') ___: print('Medium') else: print('High')"
         }
     ],
     "answers": [
         {
-            "text": "==",
+            "text": "elif score < 70",
             "correctType": "question1"
         },
         {
-            "text": "!=",
-            "correctType": "question2"
+            "text": "if score < 70",
+            "correctType": ""
+        },
+        {
+            "text": "elif score > 70",
+            "correctType": ""
         }
     ]
 }
@@ -176,163 +303,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Understand the flow of if-elif-else statements."
+            "text": "Complete the if statement using logical operators to check if 'temperature' is not within the range of 20 to 30 degrees."
         },
         {
             "type": "question1",
-            "correctValue": "first true condition",
-            "text": "In an if-elif-else chain, execution stops at the ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "default action",
-            "text": "The else block provides a ___ when no conditions are met."
+            "correctValue": "or",
+            "text": "if temperature < 20 ___ temperature > 30:"
         }
     ],
     "answers": [
         {
-            "text": "first true condition",
+            "text": "or",
             "correctType": "question1"
         },
         {
-            "text": "default action",
-            "correctType": "question2"
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "multipleResponses": true,
-    "multipleResponseVariant": true,
-    "blocks": [
-        {
-            "type": "info",
-            "text": "Evaluate the use of boolean expressions in if statements."
+            "text": "and",
+            "correctType": ""
         },
         {
-            "type": "question1",
-            "correctValue": "True",
-            "text": "The condition in an if statement must evaluate to ___ or False."
-        },
-        {
-            "type": "question2",
-            "correctValue": "boolean",
-            "text": "The data type used in if conditions is known as ___"
-        }
-    ],
-    "answers": [
-        {
-            "text": "True",
-            "correctType": "question1"
-        },
-        {
-            "text": "boolean",
-            "correctType": "question2"
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "multipleResponses": true,
-    "multipleResponseVariant": true,
-    "blocks": [
-        {
-            "type": "info",
-            "text": "Dive into the concept of short-circuit evaluation in if statements."
-        },
-        {
-            "type": "question1",
-            "correctValue": "short-circuits",
-            "text": "In an 'and' operation, if the first condition is False, Python ___ the rest."
-        },
-        {
-            "type": "question2",
-            "correctValue": "True",
-            "text": "In an 'or' operation, if the first condition is True, the result is immediately ___"
-        }
-    ],
-    "answers": [
-        {
-            "text": "short-circuits",
-            "correctType": "question1"
-        },
-        {
-            "text": "True",
-            "correctType": "question2"
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "multipleResponses": true,
-    "multipleResponseVariant": true,
-    "blocks": [
-        {
-            "type": "info",
-            "text": "Analyze the impact of truthy and falsy values in if statements."
-        },
-        {
-            "type": "question1",
-            "correctValue": "truthy",
-            "text": "Non-zero numbers and non-empty strings are considered ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "falsy",
-            "text": "Zero, None, and empty collections are considered ___"
-        }
-    ],
-    "answers": [
-        {
-            "text": "truthy",
-            "correctType": "question1"
-        },
-        {
-            "text": "falsy",
-            "correctType": "question2"
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "multipleResponses": true,
-    "multipleResponseVariant": true,
-    "blocks": [
-        {
-            "type": "info",
-            "text": "Investigate the use of ternary conditional operators in Python."
-        },
-        {
-            "type": "question1",
-            "correctValue": "conditional expression",
-            "text": "A ternary operator in Python is also known as a ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "single line",
-            "text": "Ternary operators allow you to write an if-else statement in a ___"
-        }
-    ],
-    "answers": [
-        {
-            "text": "conditional expression",
-            "correctType": "question1"
-        },
-        {
-            "text": "single line",
-            "correctType": "question2"
+            "text": "not",
+            "correctType": ""
         }
     ]
 }

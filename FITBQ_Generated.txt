@@ -4,20 +4,20 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Which keyword is used to start an if statement in Python?"
+            "text": "What is the output of the following code?\n\nx = 5\nif x > 3:\n    print('Greater')\nelse:\n    print('Smaller')"
         }
     ],
     "answers": [
         {
-            "text": "if",
+            "text": "Greater",
             "correct": true
         },
         {
-            "text": "when",
+            "text": "Smaller",
             "correct": false
         },
         {
-            "text": "do",
+            "text": "Error",
             "correct": false
         }
     ]
@@ -30,20 +30,20 @@
     "blocks": [
         {
             "type": "info",
-            "text": "How do you check if a variable `x` is equal to 10 in an if statement?"
+            "text": "Fill in the blank to complete the if statement:\n\nx = 10\nif x == 10:\n    print('Correct')\nelse:\n    print('Incorrect')\n\nThe condition inside the if statement is ______."
         }
     ],
     "answers": [
         {
-            "text": "if x == 10:",
-            "correct": true
-        },
-        {
-            "text": "if x = 10:",
+            "text": "x = 10",
             "correct": false
         },
         {
-            "text": "if x equals 10:",
+            "text": "x == 10",
+            "correct": true
+        },
+        {
+            "text": "x != 10",
             "correct": false
         }
     ]
@@ -56,20 +56,20 @@
     "blocks": [
         {
             "type": "info",
-            "text": "What is the output of the following code? \n\nx = 5\nif x > 3:\n    print('A')\nelse:\n    print('B')"
+            "text": "Given the following code, fill in the blank to make it print 'Hello':\n\nx = 'Python'\nif ______:\n    print('Hello')"
         }
     ],
     "answers": [
         {
-            "text": "A",
+            "text": "x == 'Python'",
             "correct": true
         },
         {
-            "text": "B",
+            "text": "x != 'Python'",
             "correct": false
         },
         {
-            "text": "None",
+            "text": "x is 'Python'",
             "correct": false
         }
     ]
@@ -82,94 +82,146 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Fill in the blank: In Python, the `else` block is executed when the if condition is ______."
+            "text": "What is the output of the following code?\n\nx = 7\ny = 5\nif x < y:\n    print('x is less')\nelif x == y:\n    print('x equals y')\nelse:\n    print('x is greater')"
         }
     ],
     "answers": [
         {
-            "text": "False",
+            "text": "x is less",
+            "correct": false
+        },
+        {
+            "text": "x equals y",
+            "correct": false
+        },
+        {
+            "text": "x is greater",
+            "correct": true
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to make the code execute the print statement:\n\nx = None\nif x ______ None:\n    print('x is None')"
+        }
+    ],
+    "answers": [
+        {
+            "text": "==",
             "correct": true
         },
+        {
+            "text": "!=",
+            "correct": false
+        },
+        {
+            "text": "is not",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Consider the following code snippet:\n\nx = 3\ny = 4\nif x > 2 and y < 5:\n    print('Both conditions are true')\n\nWhat will be printed?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "Both conditions are true",
+            "correct": true
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to complete the nested if statement:\n\nx = 5\nif x > 3:\n    if x < 10:\n        print('x is between 3 and 10')\n\nWhat will be printed?"
+        }
+    ],
+    "answers": [
+        {
+            "text": "x is between 3 and 10",
+            "correct": true
+        },
+        {
+            "text": "Nothing",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "What is the output of the following code?\n\nx = 8\ny = 8\nz = 10\nif x == y or y < z:\n    print('True')\nelse:\n    print('False')"
+        }
+    ],
+    "answers": [
         {
             "text": "True",
-            "correct": false
-        },
-        {
-            "text": "None",
-            "correct": false
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "Which of the following is the correct syntax for an if-elif-else statement?"
-        }
-    ],
-    "answers": [
-        {
-            "text": "if condition1:\n    pass\nelif condition2:\n    pass\nelse:\n    pass",
             "correct": true
         },
-        {
-            "text": "if condition1 then:\n    pass\nelif condition2 then:\n    pass\nelse then:\n    pass",
-            "correct": false
-        },
-        {
-            "text": "if condition1:\n    pass\nelse if condition2:\n    pass\nelse:\n    pass",
-            "correct": false
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "What will be the output of the following code? \n\nx = 0\ny = 10\nif x and y:\n    print('Both non-zero')\nelse:\n    print('At least one is zero')"
-        }
-    ],
-    "answers": [
-        {
-            "text": "At least one is zero",
-            "correct": true
-        },
-        {
-            "text": "Both non-zero",
-            "correct": false
-        },
-        {
-            "text": "None",
-            "correct": false
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "In Python, which of the following expressions will evaluate to True? \n\nx = 3\nif x != 3 and x < 5:"
-        }
-    ],
-    "answers": [
         {
             "text": "False",
+            "correct": false
+        },
+        {
+            "text": "Error",
+            "correct": false
+        }
+    ]
+}
+```
+
+```json
+{
+    "title": "Select the correct answer",
+    "blocks": [
+        {
+            "type": "info",
+            "text": "Fill in the blank to make the code print 'Yes':\n\nx = 0\ny = 1\nif not x and y:\n    print('Yes')\nelse:\n    print('No')\n\nThe condition inside the if statement is ______."
+        }
+    ],
+    "answers": [
+        {
+            "text": "True",
             "correct": true
         },
         {
-            "text": "True",
+            "text": "False",
             "correct": false
         },
         {
@@ -186,72 +238,20 @@
     "blocks": [
         {
             "type": "info",
-            "text": "What will be printed by the following code? \n\na = 5\nb = 10\nif a > b:\n    print('a is greater')\nelif a < b:\n    print('b is greater')\nelse:\n    print('a and b are equal')"
+            "text": "Consider the following code:\n\nx = 'hello'\nif isinstance(x, str) and x.islower():\n    print('Valid string')\n\nWhat will be printed?"
         }
     ],
     "answers": [
         {
-            "text": "b is greater",
+            "text": "Valid string",
             "correct": true
         },
         {
-            "text": "a is greater",
+            "text": "Nothing",
             "correct": false
         },
         {
-            "text": "a and b are equal",
-            "correct": false
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "Which of the following code snippets will correctly check if a number is within the range 10 to 20 (inclusive) using an if statement?"
-        }
-    ],
-    "answers": [
-        {
-            "text": "if 10 <= number <= 20:",
-            "correct": true
-        },
-        {
-            "text": "if number >= 10 or number <= 20:",
-            "correct": false
-        },
-        {
-            "text": "if number > 10 and number < 20:",
-            "correct": false
-        }
-    ]
-}
-```
-
-```json
-{
-    "title": "Select the correct answer",
-    "blocks": [
-        {
-            "type": "info",
-            "text": "Consider the following code:\n\nx = 15\ny = 5\nif x > 10:\n    if y < 10:\n        print('Nested')\nelse:\n    print('Not nested')\n\nWhat will be the output?"
-        }
-    ],
-    "answers": [
-        {
-            "text": "Nested",
-            "correct": true
-        },
-        {
-            "text": "Not nested",
-            "correct": false
-        },
-        {
-            "text": "No output",
+            "text": "Error",
             "correct": false
         }
     ]

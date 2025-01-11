@@ -1,0 +1,246 @@
+"Modulo 1, Leccion 1",
+Parte 1,10:14:49
+Pedagogical Page Open Time,10:14:49
+Pedagogical Page Close Time,10:14:51
+Multiplechoice Page Open Time,10:14:51
+Checkbox Selected: Un lenguaje utilizado por los humanos para comunicarse con las maquinas.,10:14:54
+Multiplechoice Page Close Time,10:14:56
+Parte 2,10:14:56
+Pedagogical Page Open Time,10:14:56
+Pedagogical Page Close Time,10:15:04
+Pedagogical2 Page Open Time,10:15:04
+Pedagogical2 Page Close Time,10:15:05
+Parte 3,10:15:05
+Pedagogical Page Open Time,10:15:05
+Pedagogical Page Close Time,10:15:06
+Multiplechoice Page Open Time,10:15:06
+Checkbox Selected: Verdadero,10:15:11
+Multiplechoice Page Close Time,10:15:12
+Parte 4,10:15:12
+Draganddrop Page Open Time,10:15:12
+Correct Answer Selected: print(729),10:15:15
+Draganddrop Page Close Time,10:15:16
+Pedagogical Page Open Time,10:15:16
+Pedagogical Page Close Time,10:15:17
+Parte 5,10:15:17
+Multiplechoice Page Open Time,10:15:17
+Checkbox Selected: comillas '' ,10:15:20
+Multiplechoice Page Close Time,10:15:22
+Pedagogical Page Open Time,10:15:22
+Pedagogical Page Close Time,10:15:23
+Parte 6,10:15:23
+Pedagogical Page Open Time,10:15:23
+Pedagogical Page Close Time,10:15:25
+
+"Modulo 1, Leccion 2",
+Parte 1,10:15:43
+Pedagogical Page Open Time,10:15:43
+Pedagogical Page Close Time,10:15:45
+Pedagogical2 Page Open Time,10:15:45
+Pedagogical2 Page Close Time,10:15:46
+Parte 2,10:15:46
+Completeblankspace Page Open Time,10:15:46
+Correct Answer Selected: +,10:15:51
+Completeblankspace Page Close Time,10:15:52
+Pedagogical Page Open Time,10:15:52
+Pedagogical Page Close Time,10:15:52
+Parte 3,10:15:52
+Draganddrop Page Open Time,10:15:52
+Correct Answer Selected: print(42 * 3),10:15:57
+Draganddrop Page Close Time,10:15:58
+Pedagogical Page Open Time,10:15:58
+Pedagogical Page Close Time,10:15:59
+Parte 4,10:15:59
+Multiplechoice Page Open Time,10:15:59
+Multiplechoice Page Close Time,10:16:02
+Pedagogical Page Open Time,10:16:02
+Correct Answer Selected: 4.0,10:16:02
+Pedagogical Page Close Time,10:16:03
+Parte 5,10:16:03
+Draganddrop Page Open Time,10:16:03
+Correct Answer Selected: Entero:2,10:16:08
+Correct Answer Selected: Flotante:3.14,10:16:08
+Draganddrop Page Close Time,10:16:09
+Pedagogical Page Open Time,10:16:09
+Pedagogical Page Close Time,10:16:10
+Parte 6,10:16:10
+Pedagogical Page Open Time,10:16:10
+Pedagogical Page Close Time,10:16:10
+Pedagogical2 Page Open Time,10:16:10
+Pedagogical2 Page Close Time,10:16:11
+Parte 7,10:16:11
+Pedagogical Page Open Time,10:16:11
+Pedagogical Page Close Time,10:16:11
+
+"Modulo 1, Leccion 3",
+Parte 1,10:16:18
+Pedagogical Page Open Time,10:16:18
+Pedagogical Page Close Time,10:16:19
+Pedagogical2 Page Open Time,10:16:19
+Pedagogical2 Page Close Time,10:16:20
+Parte 2,10:16:20
+Multiplechoice Page Open Time,10:16:20
+Checkbox Selected: 'Viernes',10:16:24
+Checkbox Selected: 'The Lord of the Rings',10:16:24
+Multiplechoice Page Close Time,10:16:25
+Pedagogical Page Open Time,10:16:25
+Pedagogical Page Close Time,10:16:25
+Parte 3,10:16:25
+Draganddrop Page Open Time,10:16:25
+Correct Drop Event: Water,10:16:33
+Correct Drop Event: +,10:16:33
+Correct Drop Event: Park,10:16:33
+Draganddrop Page Close Time,10:16:34
+Pedagogical Page Open Time,10:16:34
+Pedagogical Page Close Time,10:16:34
+Parte 4,10:16:34
+Multiplechoice Page Open Time,10:16:34
+Checkbox Selected: '100',10:16:39
+Checkbox Selected: 'Manzana',10:16:39
+Multiplechoice Page Close Time,10:16:40
+Draganddrop Page Open Time,10:16:40
+Draganddrop Page Close Time,10:16:47
+Parte 5,10:16:47
+Pedagogical Page Open Time,10:16:47
+Correct Answer Selected: 100,10:16:47
+Correct Answer Selected: 100.00,10:16:47
+Correct Answer Selected: 'cien',10:16:47
+Pedagogical Page Close Time,10:16:48
+Pedagogical2 Page Open Time,10:16:48
+Pedagogical2 Page Close Time,10:16:49
+Parte 6,10:16:49
+Pedagogical Page Open Time,10:16:49
+Pedagogical Page Close Time,10:16:49
+
+"Modulo 1, Leccion 4",
+Parte 1,10:16:58
+Pedagogical Page Open Time,10:16:58
+Pedagogical Page Close Time,10:17:00
+Draganddrop Page Open Time,10:17:00
+Draganddrop Page Close Time,10:17:08
+Parte 2,10:17:08
+Pedagogical Page Open Time,10:17:08
+Correct Answer Selected: Entero,10:17:08
+Correct Answer Selected: Flotante,10:17:08
+Correct Answer Selected: Cadena,10:17:08
+Pedagogical Page Close Time,10:17:09
+Draganddrop Page Open Time,10:17:09
+Correct Drop Event: print('Nosotros somos los campeones amigos'),10:17:15
+Correct Drop Event: print('Y seguiremos luchando hasta el final'),10:17:15
+Correct Drop Event: print('Somos los campeones'),10:17:15
+Draganddrop Page Close Time,10:17:16
+Parte 3,10:17:16
+Pedagogical Page Open Time,10:17:16
+Pedagogical Page Close Time,10:17:16
+Completeblankspace Page Open Time,10:17:16
+Correct Answer Selected: print,10:17:19
+Completeblankspace Page Close Time,10:17:20
+Parte 4,10:17:20
+Pedagogical Page Open Time,10:17:20
+Pedagogical Page Close Time,10:17:21
+Draganddrop Page Open Time,10:17:21
+Draganddrop Page Close Time,10:17:26
+Parte 5,10:17:26
+Pedagogical Page Open Time,10:17:26
+Correct Answer Selected: sep,10:17:26
+Correct Answer Selected: '-',10:17:26
+Pedagogical Page Close Time,10:17:27
+Draganddrop Page Open Time,10:17:27
+"Correct Answer Selected: # Outputs a message 
+print('Have a good day!')",10:17:31
+Draganddrop Page Close Time,10:17:32
+Parte 6,10:17:32
+Pedagogical Page Open Time,10:17:32
+Pedagogical Page Close Time,10:17:33
+Pedagogical2 Page Open Time,10:17:33
+Pedagogical2 Page Close Time,10:17:33
+Parte 7,10:17:33
+Pedagogical Page Open Time,10:17:33
+Pedagogical Page Close Time,10:17:34
+Pedagogical2 Page Open Time,10:17:34
+Pedagogical2 Page Close Time,10:17:35
+
+"Modulo 1, Leccion 5",
+Parte 1,10:17:38
+Pedagogical2 Page Open Time,10:17:38
+Pedagogical2 Page Close Time,10:17:40
+Parte 2,10:17:40
+Pedagogical Page Open Time,10:17:40
+Pedagogical Page Close Time,10:17:41
+Pedagogical2 Page Open Time,10:17:41
+Pedagogical2 Page Close Time,10:17:42
+Parte 3,10:17:42
+Multiplechoice Page Open Time,10:17:42
+Checkbox Selected: valor.,10:17:44
+Multiplechoice Page Close Time,10:17:45
+Draganddrop Page Open Time,10:17:45
+Draganddrop Page Close Time,10:17:49
+Parte 4,10:17:49
+Pedagogical Page Open Time,10:17:49
+Correct Drop Event: edad,10:17:49
+Correct Drop Event: 18,10:17:49
+Pedagogical Page Close Time,10:17:50
+Completeblankspace Page Open Time,10:17:50
+Correct Answer Selected: 2028,10:17:52
+Completeblankspace Page Close Time,10:17:53
+Parte 5,10:17:53
+Pedagogical Page Open Time,10:17:53
+Pedagogical Page Close Time,10:17:54
+Multiplechoice Page Open Time,10:17:54
+Checkbox Selected: 24,10:17:59
+Multiplechoice Page Close Time,10:18:00
+Parte 6,10:18:00
+Multiplechoice Page Open Time,10:18:00
+Checkbox Selected: 12,10:18:05
+Multiplechoice Page Close Time,10:18:06
+Pedagogical Page Open Time,10:18:06
+Pedagogical Page Close Time,10:18:07
+Parte 7,10:18:07
+Multiplechoice Page Open Time,10:18:07
+Checkbox Selected: un_nombre_variable,10:18:11
+Multiplechoice Page Close Time,10:18:12
+Pedagogical Page Open Time,10:18:12
+Pedagogical Page Close Time,10:18:12
+Parte 8,10:18:12
+Multiplechoice Page Open Time,10:18:12
+Multiplechoice Page Close Time,10:18:15
+Pedagogical Page Open Time,10:18:15
+Checkbox Selected: Balance: € 200,10:18:15
+Pedagogical Page Close Time,10:18:16
+Parte 9,10:18:16
+Pedagogical Page Open Time,10:18:16
+Pedagogical Page Close Time,10:18:17
+Pedagogical2 Page Open Time,10:18:17
+Pedagogical2 Page Close Time,10:18:17
+
+"Modulo 2, Leccion 1",
+Parte 1,10:20:13
+Pedagogical Page Open Time,10:20:13
+Pedagogical Page Close Time,10:20:15
+Pedagogical2 Page Open Time,10:20:15
+Pedagogical2 Page Close Time,10:20:16
+Parte 2,10:20:16
+Draganddrop Page Open Time,10:20:16
+Draganddrop Page Close Time,10:20:23
+Pedagogical Page Open Time,10:20:23
+Correct Answer Selected: '42',10:20:23
+Correct Answer Selected: text,10:20:23
+Pedagogical Page Close Time,10:20:24
+Parte 3,10:20:24
+Multiplechoice Page Open Time,10:20:24
+Multiplechoice Page Close Time,10:20:32
+Pedagogical Page Open Time,10:20:32
+Checkbox Selected: una cadena,10:20:32
+Pedagogical Page Close Time,10:20:33
+Parte 4,10:20:33
+Multiplechoice Page Open Time,10:20:33
+Checkbox Selected: input(),10:20:37
+Multiplechoice Page Close Time,10:20:38
+Pedagogical Page Open Time,10:20:38
+Pedagogical Page Close Time,10:20:38
+Parte 5,10:20:38
+Pedagogical Page Open Time,10:20:38
+Pedagogical Page Close Time,10:20:39
+Pedagogical2 Page Open Time,10:20:39
+Pedagogical2 Page Close Time,10:20:40
+
