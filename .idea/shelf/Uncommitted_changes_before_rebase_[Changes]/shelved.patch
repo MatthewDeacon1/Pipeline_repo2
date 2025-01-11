@@ -1,0 +1,74 @@
+Index: Usuarios_respuestas_lecciones/bhh_Respuestas_Tiempos.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Usuarios_respuestas_lecciones/bhh_Respuestas_Tiempos.csv b/Usuarios_respuestas_lecciones/bhh_Respuestas_Tiempos.csv
+new file mode 100644
+--- /dev/null	(date 1735925736083)
++++ b/Usuarios_respuestas_lecciones/bhh_Respuestas_Tiempos.csv	(date 1735925736083)
+@@ -0,0 +1,36 @@
++"Modulo 1, Leccion 1",
++Parte 1,12:35:15
++Pedagogical Page Open Time,12:35:15
++Pedagogical Page Close Time,12:35:17
++Multiplechoice Page Open Time,12:35:17
++Checkbox Selected: Un lenguaje utilizado por los humanos para comunicarse con las maquinas.,12:35:18
++Multiplechoice Page Close Time,12:35:19
++Parte 2,12:35:19
++Pedagogical Page Open Time,12:35:19
++Pedagogical Page Close Time,12:35:22
++Pedagogical2 Page Open Time,12:35:22
++Pedagogical2 Page Close Time,12:35:23
++Parte 3,12:35:23
++Pedagogical Page Open Time,12:35:23
++Pedagogical Page Close Time,12:35:23
++Multiplechoice Page Open Time,12:35:23
++Multiplechoice Page Close Time,12:35:26
++Parte 4,12:35:26
++Draganddrop Page Open Time,12:35:26
++Parte 3,12:35:26
++Checkbox Selected: Verdadero,12:35:26
++Parte 4,12:35:29
++Correct Answer Selected: print(729),12:35:29
++Draganddrop Page Close Time,12:35:30
++Pedagogical Page Open Time,12:35:30
++Pedagogical Page Close Time,12:35:30
++Parte 5,12:35:30
++Multiplechoice Page Open Time,12:35:30
++Checkbox Selected: comillas '' ,12:35:33
++Multiplechoice Page Close Time,12:35:34
++Pedagogical Page Open Time,12:35:34
++Pedagogical Page Close Time,12:35:34
++Parte 6,12:35:34
++Pedagogical Page Open Time,12:35:34
++Pedagogical Page Close Time,12:35:36
++
+Index: badge_progress/fdslkj_badge_progress.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/badge_progress/fdslkj_badge_progress.json b/badge_progress/fdslkj_badge_progress.json
+new file mode 100644
+--- /dev/null	(date 1735925802333)
++++ b/badge_progress/fdslkj_badge_progress.json	(date 1735925802333)
+@@ -0,0 +1,17 @@
++{
++    "streak": 4,
++    "gran_paso": true,
++    "hello_world": false,
++    "5_correctas": false,
++    "10_correctas": false,
++    "20_correctas": false,
++    "intermedio": false,
++    "avanzado": false,
++    "experto": false,
++    "doble_aprendizaje": false,
++    "modulo_rapido": false,
++    "dominador_modulo": false,
++    "super_estudiante": false,
++    "Maestro_desafiante": false,
++    "Explorador_curioso": false
++}
+\ No newline at end of file

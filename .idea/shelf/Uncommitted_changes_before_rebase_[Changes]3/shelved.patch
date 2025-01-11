@@ -1,0 +1,73 @@
+Index: Commit_files.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Commit_files.py b/Commit_files.py
+--- a/Commit_files.py	(revision 3d639256d810fc09dd0385790820e5677f644832)
++++ b/Commit_files.py	(date 1735942885340)
+@@ -1,0 +1,44 @@
++import subprocess
++
++def get_unversioned_files():
++    """Retrieve a list of unversioned files using Git."""
++    try:
++        result = subprocess.run(
++            ["git", "status", "--porcelain"],
++            capture_output=True,
++            text=True,
++            check=True
++        )
++        # Filter for untracked files marked with '??'
++        unversioned_files = [
++            line[3:] for line in result.stdout.splitlines() if line.startswith("??")
++        ]
++        return unversioned_files
++    except subprocess.CalledProcessError as e:
++        print("Error while retrieving unversioned files:", e.stderr)
++        return []
++
++def commit_file(file_path):
++    """Commit an individual file to the repository."""
++    try:
++        # Add the file to the staging area
++        subprocess.run(["git", "add", file_path], check=True)
++        # Commit the file with a message
++        commit_message = f"Add {file_path}"
++        subprocess.run(["git", "commit", "-m", commit_message], check=True)
++        print(f"Committed: {file_path}")
++    except subprocess.CalledProcessError as e:
++        print(f"Error committing {file_path}: {e.stderr}")
++
++def main():
++    unversioned_files = get_unversioned_files()
++    if not unversioned_files:
++        print("No unversioned files found.")
++        return
++
++    print(f"Found {len(unversioned_files)} unversioned file(s).")
++    for file_path in unversioned_files:
++        commit_file(file_path)
++
++if __name__ == "__main__":
++    main()
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$/../..\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/Icons\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 3d639256d810fc09dd0385790820e5677f644832)
++++ b/.idea/vcs.xml	(date 1735942883864)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+     <mapping directory="$PROJECT_DIR$/Icons" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
