@@ -6,27 +6,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Fill in the blanks for basic if statements in Python."
+            "text": "Complete the if statement to check if a number is positive."
         },
         {
             "type": "question1",
-            "correctValue": "if",
-            "text": "To start a conditional block, use the keyword ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "else",
-            "text": "To execute a block of code when the condition is false, use the keyword ___"
+            "correctValue": "number > 0",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "if",
+            "text": "number > 0",
             "correctType": "question1"
         },
         {
-            "text": "else",
-            "correctType": "question2"
+            "text": "number == 0",
+            "correctType": "question1"
+        },
+        {
+            "text": "number < 0",
+            "correctType": "question1"
         }
     ]
 }
@@ -40,27 +39,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Identify the correct syntax for if-else statements."
+            "text": "Choose the correct condition to check if a variable 'x' is equal to 10."
         },
         {
             "type": "question1",
-            "correctValue": ":",
-            "text": "Each if statement ends with a ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "elif",
-            "text": "To check multiple conditions, use the keyword ___"
+            "correctValue": "x == 10",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": ":",
+            "text": "x == 10",
             "correctType": "question1"
         },
         {
-            "text": "elif",
-            "correctType": "question2"
+            "text": "x = 10",
+            "correctType": "question1"
+        },
+        {
+            "text": "x != 10",
+            "correctType": "question1"
         }
     ]
 }
@@ -74,27 +72,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Understanding logical operators in if statements."
+            "text": "Complete the if statement to check if a string 's' is empty."
         },
         {
             "type": "question1",
-            "correctValue": "and",
-            "text": "To combine conditions that must all be true, use ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "or",
-            "text": "To combine conditions where only one must be true, use ___"
+            "correctValue": "s == ''",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "and",
+            "text": "s == ''",
             "correctType": "question1"
         },
         {
-            "text": "or",
-            "correctType": "question2"
+            "text": "s != ''",
+            "correctType": "question1"
+        },
+        {
+            "text": "s is None",
+            "correctType": "question1"
         }
     ]
 }
@@ -108,27 +105,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Determine the correct output of nested if statements."
+            "text": "Choose the correct condition to check if a list 'lst' contains exactly 5 elements."
         },
         {
             "type": "question1",
-            "correctValue": "nested",
-            "text": "An if statement inside another if statement is called ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "indentation",
-            "text": "Python uses ___ to determine the block of code associated with an if statement."
+            "correctValue": "len(lst) == 5",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "nested",
+            "text": "len(lst) == 5",
             "correctType": "question1"
         },
         {
-            "text": "indentation",
-            "correctType": "question2"
+            "text": "len(lst) > 5",
+            "correctType": "question1"
+        },
+        {
+            "text": "lst[5]",
+            "correctType": "question1"
         }
     ]
 }
@@ -142,27 +138,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Explore the use of comparison operators in if statements."
+            "text": "Complete the if statement to check if a dictionary 'd' has a key 'name'."
         },
         {
             "type": "question1",
-            "correctValue": "==",
-            "text": "To check if two values are equal, use ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "!=",
-            "text": "To check if two values are not equal, use ___"
+            "correctValue": "'name' in d",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "==",
+            "text": "'name' in d",
             "correctType": "question1"
         },
         {
-            "text": "!=",
-            "correctType": "question2"
+            "text": "d['name']",
+            "correctType": "question1"
+        },
+        {
+            "text": "'name' not in d",
+            "correctType": "question1"
         }
     ]
 }
@@ -176,27 +171,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Understand the flow of if-elif-else statements."
+            "text": "Choose the correct condition to check if a variable 'a' is less than or equal to 'b'."
         },
         {
             "type": "question1",
-            "correctValue": "first true condition",
-            "text": "In an if-elif-else chain, execution stops at the ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "default action",
-            "text": "The else block provides a ___ when no conditions are met."
+            "correctValue": "a <= b",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "first true condition",
+            "text": "a <= b",
             "correctType": "question1"
         },
         {
-            "text": "default action",
-            "correctType": "question2"
+            "text": "a < b",
+            "correctType": "question1"
+        },
+        {
+            "text": "a == b",
+            "correctType": "question1"
         }
     ]
 }
@@ -210,27 +204,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Evaluate the use of boolean expressions in if statements."
+            "text": "Complete the if statement to check if a set 's' is a subset of another set 't'."
         },
         {
             "type": "question1",
-            "correctValue": "True",
-            "text": "The condition in an if statement must evaluate to ___ or False."
-        },
-        {
-            "type": "question2",
-            "correctValue": "boolean",
-            "text": "The data type used in if conditions is known as ___"
+            "correctValue": "s.issubset(t)",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "True",
+            "text": "s.issubset(t)",
             "correctType": "question1"
         },
         {
-            "text": "boolean",
-            "correctType": "question2"
+            "text": "t.issubset(s)",
+            "correctType": "question1"
+        },
+        {
+            "text": "s == t",
+            "correctType": "question1"
         }
     ]
 }
@@ -244,27 +237,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Dive into the concept of short-circuit evaluation in if statements."
+            "text": "Choose the correct condition to check if a float 'f' is not a number (NaN)."
         },
         {
             "type": "question1",
-            "correctValue": "short-circuits",
-            "text": "In an 'and' operation, if the first condition is False, Python ___ the rest."
-        },
-        {
-            "type": "question2",
-            "correctValue": "True",
-            "text": "In an 'or' operation, if the first condition is True, the result is immediately ___"
+            "correctValue": "math.isnan(f)",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "short-circuits",
+            "text": "math.isnan(f)",
             "correctType": "question1"
         },
         {
-            "text": "True",
-            "correctType": "question2"
+            "text": "f == NaN",
+            "correctType": "question1"
+        },
+        {
+            "text": "f is NaN",
+            "correctType": "question1"
         }
     ]
 }
@@ -278,27 +270,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Analyze the impact of truthy and falsy values in if statements."
+            "text": "Complete the if statement to check if a tuple 't' contains only unique elements."
         },
         {
             "type": "question1",
-            "correctValue": "truthy",
-            "text": "Non-zero numbers and non-empty strings are considered ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "falsy",
-            "text": "Zero, None, and empty collections are considered ___"
+            "correctValue": "len(t) == len(set(t))",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "truthy",
+            "text": "len(t) == len(set(t))",
             "correctType": "question1"
         },
         {
-            "text": "falsy",
-            "correctType": "question2"
+            "text": "len(t) != len(set(t))",
+            "correctType": "question1"
+        },
+        {
+            "text": "set(t) == t",
+            "correctType": "question1"
         }
     ]
 }
@@ -312,27 +303,26 @@
     "blocks": [
         {
             "type": "info",
-            "text": "Investigate the use of ternary conditional operators in Python."
+            "text": "Choose the correct condition to check if a string 's' contains only alphabetic characters."
         },
         {
             "type": "question1",
-            "correctValue": "conditional expression",
-            "text": "A ternary operator in Python is also known as a ___"
-        },
-        {
-            "type": "question2",
-            "correctValue": "single line",
-            "text": "Ternary operators allow you to write an if-else statement in a ___"
+            "correctValue": "s.isalpha()",
+            "text": "if ___:"
         }
     ],
     "answers": [
         {
-            "text": "conditional expression",
+            "text": "s.isalpha()",
             "correctType": "question1"
         },
         {
-            "text": "single line",
-            "correctType": "question2"
+            "text": "s.isdigit()",
+            "correctType": "question1"
+        },
+        {
+            "text": "s.isspace()",
+            "correctType": "question1"
         }
     ]
 }
